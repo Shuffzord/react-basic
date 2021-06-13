@@ -6,6 +6,9 @@
         "client_panattoni_reviewer": "Andrzej Przesymycki"
     },
     "counters": {
-        "projects-done": "Skończonych projektów"
+        "projects_done": "Skończonych projektów",
+        "square_meters": "Zaprojektowanej powierzchni użytkowej",
+        "experience": "Lat doświadczenia",
+        "happy_customers": "Zadowolonych klientów"
     }
 }
