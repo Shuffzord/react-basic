@@ -898,8 +898,9 @@ textarea.form-control {
 }
 
 .ftco-animate {
-	opacity: 0;
-	visibility: hidden;
+	// opacity: 1;
+	// visibility: hidden;
+	//TODO: This was used to animate with js, swap to css animation 
 }
 
 
