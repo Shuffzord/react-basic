@@ -1291,6 +1291,52 @@ textarea.form-control {
   }
 }
 
+//TEAM
+.team-container {
+  padding: 1em 0 4em 0;
+}
+
+.team-wrap {
+  display: block;
+  position: relative;
+  background: rgba(255, 255, 255, 1);
+  padding: 0 20px;
+  min-height: 200px;
+  margin: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  -webkit-box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
+  .user-img {
+    width: 280px;
+    height: 280px;
+    position: relative;
+    // margin: 0 auto;
+    @include border-radius(50%);
+    // margin-top: -75px;
+  }
+  .fa {
+    color: $primary;
+    font-size: 30px;
+    position: absolute;
+    top: -18px;
+    left: 20px;
+  }
+  .name {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: $black;
+  }
+  .position {
+    font-size: 16px;
+    color: lighten($black, 70%);
+  }
+  .email {
+    color: $primary;
+  }
+}
+
 //TESTIMONY
 .testimony-container {
   padding: 1em 0 2em 0;

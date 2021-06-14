@@ -2,8 +2,6 @@ import React from 'react';
 import { useTranslation } from 'react-i18next'
 import Client from './Client';
 import Slider from "react-slick";
-import '../../node_modules/slick-carousel/slick/slick.css'
-import '../../node_modules/slick-carousel/slick/slick-theme.css'
 //TODO: Add images, move into components
 const Clients = () => {
   const { t } = useTranslation();

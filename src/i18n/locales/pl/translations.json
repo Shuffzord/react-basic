@@ -2,14 +2,14 @@
     "clients": {
         "testimonials": "Referencje",
         "header": "Zadowoleni klienci",
-        
+        "architect": "Architekt",
         "pannatoni": {
             "name": "PANATTONI EUROPE",
             "reviewer": "Andrzej Przesymycki",
             "date": "Październik 2015",
             "description": "Biuro Projektów BLUE AXES bardzo dobrze wywiązało się ze wszystkich podjętych zadań i na czas oddało projekt wraz z pozwoleniem na budowę. Z całym przekonaniem pragnę zarekomendować firmę BLUE AXES Marek Cywiński, jako sprawdzoną, profesjonalną i bardzo sprawną pracownię projektową.",
             "image": "person_1.jpg"
-        },        
+        },
         "menard": {
             "name": "MENARD DOSWELL & Co.",
             "reviewer": "Krzysztof Jaśkiewicz",
@@ -52,7 +52,16 @@
         "experience": "Lat doświadczenia",
         "happy_customers": "Zadowolonych klientów"
     },
+    "team": {
+        "header": "Nasz zespół"
+    },
     "navigation": {
-        "aboutUs" : "O Nas"
+        "aboutUs": "O Nas",
+        "mission": "Misja",
+        "projects": "Nasze projekty",
+        "clients": "Nasi Klienci",
+        "contact": "Kontakt",
+        "offer": "Oferta",
+        "team": "Zespół"
     }
 }

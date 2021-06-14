@@ -19,12 +19,12 @@ const Header = () => {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active"><a href="#Home" className="nav-link">Blue Axes</a></li>
             <li className="nav-item"><a href="#About" className="nav-link">{t('navigation.aboutUs')}</a></li>
-            <li className="nav-item"><a href="#Mission" className="nav-link">Misja</a></li>
-            <li className="nav-item"><a href="#Projects" className="nav-link">Nasze projekty</a></li>
-            <li className="nav-item"><a href="#Clients" className="nav-link">Nasi Klienci</a></li>
-            <li className="nav-item"><a href="#Contact" className="nav-link">Kontakt</a></li>
-            <li className="nav-item"><a href="#Offer" className="nav-link">Oferta</a></li>
-            <li className="nav-item"><a href="#Team" className="nav-link">Nasz zespół</a></li>
+            <li className="nav-item"><a href="#Mission" className="nav-link">{t('navigation.mission')}</a></li>
+            <li className="nav-item"><a href="#Projects" className="nav-link">{t('navigation.projects')}</a></li>
+            <li className="nav-item"><a href="#Clients" className="nav-link">{t('navigation.clients')}</a></li>
+            <li className="nav-item"><a href="#Contact" className="nav-link">{t('navigation.contact')}</a></li>
+            <li className="nav-item"><a href="#Offer" className="nav-link">{t('navigation.offer')}</a></li>
+            <li className="nav-item"><a href="#Team" className="nav-link">{t('navigation.team')}</a></li>
           </ul>
           <img src={PolandLogo} style={{ width: '25px', marginLeft: '5px', cursor: 'pointer' }} alt="Polski" onClick={() => changeLanguage('pl')} />
           <img src={USALogo} style={{ width: '25px', marginLeft: '5px', cursor: 'pointer' }} alt="English" onClick={() => changeLanguage('en')} />

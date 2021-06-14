@@ -2,6 +2,7 @@
     "clients": {
         "testimonials": "Referencje",
         "header": "Zadowoleni klienci",
+        "architect": "Architect",
         "pannatoni": {
             "name": "PANATTONI EUROPE",
             "reviewer": "Andrzej Przesymycki",
@@ -51,7 +52,16 @@
         "experience": "Lat doświadczenia",
         "happy_customers": "Zadowolonych klientów"
     },
+    "team": {
+        "header": "Our Team"
+    },
     "navigation": {
-        "aboutUs": "About Us"
+        "aboutUs": "About Us",
+        "mission": "Mission",
+        "projects": "Our Projects",
+        "clients": "Our Clients",
+        "contact": "Contact",
+        "offer": "Offer",
+        "team": "Team"
     }
 }
