@@ -7,7 +7,7 @@ const Client = (props) => {
     const imageUrl = require(`../images/${imageName}`)
 
     return (
-        <div className="item">
+        <div className="testimony-container">
             <div className="testimony-wrap py-4">
                 <div className="text">
                     <span className="fa fa-quote-left"></span>
