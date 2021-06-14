@@ -2,46 +2,47 @@
     "clients": {
         "testimonials": "Referencje",
         "header": "Zadowoleni klienci",
+        
         "pannatoni": {
             "name": "PANATTONI EUROPE",
             "reviewer": "Andrzej Przesymycki",
-            "date": "Pannatoni description",
-            "description": "Pannatoni description",
+            "date": "Październik 2015",
+            "description": "Biuro Projektów BLUE AXES bardzo dobrze wywiązało się ze wszystkich podjętych zadań i na czas oddało projekt wraz z pozwoleniem na budowę. Z całym przekonaniem pragnę zarekomendować firmę BLUE AXES Marek Cywiński, jako sprawdzoną, profesjonalną i bardzo sprawną pracownię projektową.",
             "image": "person_1.jpg"
-        },
+        },        
         "menard": {
-            "name": "MENARD DOSWELL & CO.",
-            "reviewer": "Andrzej Przesymycki",
-            "date": "Pannatoni description",
-            "description": "Pannatoni description",
+            "name": "MENARD DOSWELL & Co.",
+            "reviewer": "Krzysztof Jaśkiewicz",
+            "date": "Kwiecień 2015",
+            "description": "Szczególne znaczenie przy projekcie miała właściwa komunikacja z klientem w celu zdefiniowania i spełnienia rygorystycznych wymagań technologicznych. Efektem profesjonalizmu i zaangażowania projektantów BLUE AXES była dobrze zrealizowana inwestycja(...) Na bazie dobrych doświadczeń polecamy firmę Pana Marka, jako sprawdzonego partnera w biznesie.",
             "image": "person_1.jpg"
         },
         "exeter": {
-            "name": "Exeter Property Group",
-            "reviewer": "Andrzej Przesymycki",
-            "date": "Pannatoni description",
-            "description": "Pannatoni description",
+            "name": "EXETER PROPERTY GROUP",
+            "reviewer": "Tomasz Wierzbicki",
+            "date": "Grudzień 2014",
+            "description": "Projektanci BLUE AXES, dzięki kilkunastoletniemu doświadczeniu wykazali się dużą sprawnością i spełnili rygorystyczne wymagania klienta. Polecam pracownię BLUE AXES Marek Cywiński jako bardzo solidnego i odpowiedzialnego partnera w biznesie. Jestem przekonany, że firma spełni oczekiwania inwestorów.",
             "image": "person_1.jpg"
         },
         "caimmo": {
             "name": "CA IMMO",
-            "reviewer": "Andrzej Przesymycki",
-            "date": "Pannatoni description",
-            "description": "Pannatoni description",
+            "reviewer": "Krystian Klimas",
+            "date": "Lipiec 2020",
+            "description": "Współpraca z pracownią projektową BLUE AXES układała się wzorowo. Firma wykazała się dużą sprawnością i znajomością specyfiki projektowania obiektów przemysłowych. Polecamy Pracownię Projektową BLUE AXES Marek Cywiński inwestorom, którzy oczekują współpracy z doświadczonymi i sprawdzonymi projektantami.",
             "image": "person_1.jpg"
         },
         "dlinvestgroup": {
             "name": "DL INVEST GROUP",
-            "reviewer": "Andrzej Przesymycki",
-            "date": "Pannatoni description",
-            "description": "Pannatoni description",
+            "reviewer": "Michał Makulski",
+            "date": "Lipiec 2020",
+            "description": "Projekt wykonany przez BLUE AXES cechuje się wysoką jakością pod względem technicznych i ekonomicznych parametrów.            Rekomendujemy profesjonalne usługi wykonywane przez Pracownię Projektową BLUE AXES. (…) jesteśmy przekonani, że inwestorzy, którzy nawiążą współpracą z BLUE AXES będą nią usatysfakcjonowani.",
             "image": "person_1.jpg"
         },
         "gerda": {
             "name": "GERDA",
-            "reviewer": "Andrzej Przesymycki",
-            "date": "Pannatoni description",
-            "description": "Pannatoni description",
+            "reviewer": "Paty Timu",
+            "date": "Lipiec 2020",
+            "description": "Zespół projektowy BLUE AXES wykazał się naprawdę dużym doświadczeniem i sprawności w opracowaniu projektu w naszym standardzie. Zwracam również uwagę na bardzo dobrą komunikację i rozumienie potrzeb inwestora oraz wymogów lokalnych urzędów i instytucji co zaowocowało efektywną i korzystną współpracą.",
             "image": "person_1.jpg"
         }
     },
