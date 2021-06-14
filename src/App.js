@@ -12,7 +12,6 @@ import Team from './Components/Team';
 import Contact from './Components/Contact';
 
 function App() {
-
   return (
     <div>
       <Header />

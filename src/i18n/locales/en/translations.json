@@ -1,4 +1,57 @@
 {
-    "client_panattoni": "PANATTONI EUROPE",
-    "client_panattoni_reviewer": "Andrzej Przesymycki"
+    "clients": {
+        "testimonials": "Referencje",
+        "header": "Zadowoleni klienci",
+        "pannatoni": {
+            "name": "PANATTONI EUROPE",
+            "reviewer": "Andrzej Przesymycki",
+            "date": "October 2015",
+            "description": "BLUE AXES design studio fulfilled all undertaken tasks remarkably and handed the project along with the building permit on time. With full confidence, I would like to recommend BLUE AXES Marek Cywiński as a proven, professional and a very efficient design studio.",
+            "image": "person_1.jpg"
+        },
+        "menard": {
+            "name": "MENARD DOSWELL & Co.",
+            "reviewer": "Krzysztof Jaśkiewicz",
+            "date": "April 2015",
+            "description": "Proper communication with the client in order to define and meet the strict technological requirements was of particular importance to the project. A well realized investment is a result of the professionalism and commitment behind BLUE AXES designers (...) On the basis of good experiences we recommend BLUE AXES as a reliable business partner",
+            "image": "person_1.jpg"
+        },
+        "exeter": {
+            "name": "EXETER PROPERTY GROUP",
+            "reviewer": "Pathy Timu",
+            "date": "July 2020",
+            "description": "The design team at BLUE AXES showed great efficiency and experience in developing the project to our standard. I would like to point out the very good communication as well as understanding of the investor's needs and the requirements of local institutions. This resulted in an effective and beneficial cooperation",
+            "image": "person_1.jpg"
+        },
+        "caimmo": {
+            "name": "CA IMMO",
+            "reviewer": "Tomasz Wierzbicki",
+            "date": "December 2014",
+            "description": "BLUE AXES designers, thanks to their several years of experience, demonstrated great efficiency and met the client's stringent requirements. I recommend BLUE AXES Marek Cywiński as a very reliable and responsible business partner. I am convinced that the company will meet investors' expectations.",
+            "image": "person_1.jpg"
+        },
+        "dlinvestgroup": {
+            "name": "DL INVEST GROUP",
+            "reviewer": "Krystian Klimas",
+            "date": "July 2020",
+            "description": "Cooperation with the BLUE AXES design studio was exemplary. The company showed great efficiency and knowledge of the specifics of designing industrial facilities. We recommend the BLUE AXES Marek Cywiński design studio to investors who expect cooperation with highly experienced and proven designers.",
+            "image": "person_1.jpg"
+        },
+        "gerda": {
+            "name": "GERDA",
+            "reviewer": "Michał Makulski",
+            "date": "July 2020",
+            "description": "The project created by BLUE AXES is professional in both terms of quality and economic parameters. We recommend the professional services performed by BLUE AXES design studio. We are convinced that investors who start cooperation with BLUE AXES will be satisfied with it.",
+            "image": "person_1.jpg"
+        }
+    },
+    "counters": {
+        "projects_done": "Skończonych projektów",
+        "square_meters": "Zaprojektowanej powierzchni użytkowej",
+        "experience": "Lat doświadczenia",
+        "happy_customers": "Zadowolonych klientów"
+    },
+    "navigation": {
+        "aboutUs": "About Us"
+    }
 }

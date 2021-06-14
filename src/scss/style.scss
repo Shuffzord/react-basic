@@ -10,6 +10,10 @@ $primary: #81CFFF;
 $secondary: #e16262;
 $darken: #21243d;
 
+html {
+	scroll-behavior: smooth;
+}
+
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;

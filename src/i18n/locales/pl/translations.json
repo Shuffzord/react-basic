@@ -19,30 +19,30 @@
         },
         "exeter": {
             "name": "EXETER PROPERTY GROUP",
+            "reviewer": "Pathy Timu",
+            "date": "Lipiec 2020",
+            "description": "Zespół projektowy BLUE AXES wykazał się naprawdę dużym doświadczeniem i sprawności w opracowaniu projektu w naszym standardzie. Zwracam również uwagę na bardzo dobrą komunikację i rozumienie potrzeb inwestora oraz wymogów lokalnych urzędów i instytucji co zaowocowało efektywną i korzystną współpracą.",
+            "image": "person_1.jpg"
+        },
+        "caimmo": {
+            "name": "CA IMMO",
             "reviewer": "Tomasz Wierzbicki",
             "date": "Grudzień 2014",
             "description": "Projektanci BLUE AXES, dzięki kilkunastoletniemu doświadczeniu wykazali się dużą sprawnością i spełnili rygorystyczne wymagania klienta. Polecam pracownię BLUE AXES Marek Cywiński jako bardzo solidnego i odpowiedzialnego partnera w biznesie. Jestem przekonany, że firma spełni oczekiwania inwestorów.",
             "image": "person_1.jpg"
         },
-        "caimmo": {
-            "name": "CA IMMO",
+        "dlinvestgroup": {
+            "name": "DL INVEST GROUP",
             "reviewer": "Krystian Klimas",
             "date": "Lipiec 2020",
             "description": "Współpraca z pracownią projektową BLUE AXES układała się wzorowo. Firma wykazała się dużą sprawnością i znajomością specyfiki projektowania obiektów przemysłowych. Polecamy Pracownię Projektową BLUE AXES Marek Cywiński inwestorom, którzy oczekują współpracy z doświadczonymi i sprawdzonymi projektantami.",
             "image": "person_1.jpg"
         },
-        "dlinvestgroup": {
-            "name": "DL INVEST GROUP",
+        "gerda": {
+            "name": "GERDA",
             "reviewer": "Michał Makulski",
             "date": "Lipiec 2020",
             "description": "Projekt wykonany przez BLUE AXES cechuje się wysoką jakością pod względem technicznych i ekonomicznych parametrów.            Rekomendujemy profesjonalne usługi wykonywane przez Pracownię Projektową BLUE AXES. (…) jesteśmy przekonani, że inwestorzy, którzy nawiążą współpracą z BLUE AXES będą nią usatysfakcjonowani.",
-            "image": "person_1.jpg"
-        },
-        "gerda": {
-            "name": "GERDA",
-            "reviewer": "Paty Timu",
-            "date": "Lipiec 2020",
-            "description": "Zespół projektowy BLUE AXES wykazał się naprawdę dużym doświadczeniem i sprawności w opracowaniu projektu w naszym standardzie. Zwracam również uwagę na bardzo dobrą komunikację i rozumienie potrzeb inwestora oraz wymogów lokalnych urzędów i instytucji co zaowocowało efektywną i korzystną współpracą.",
             "image": "person_1.jpg"
         }
     },
@@ -51,5 +51,8 @@
         "square_meters": "Zaprojektowanej powierzchni użytkowej",
         "experience": "Lat doświadczenia",
         "happy_customers": "Zadowolonych klientów"
+    },
+    "navigation": {
+        "aboutUs" : "O Nas"
     }
 }

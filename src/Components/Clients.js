@@ -7,7 +7,7 @@ const Clients = () => {
   const clients = ['pannatoni', 'menard', 'exeter', 'caimmo', 'dlinvestgroup', 'gerda']
 
   return (
-    <section className="ftco-section testimony-section bg-light">
+    <section id="Clients" className="ftco-section testimony-section bg-light">
       <div className="container">
         <div className="row justify-content-center mb-5">
           <div className="col-md-7 text-center heading-section ">
