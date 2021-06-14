@@ -246,6 +246,9 @@ h5,
       outline: none !important;
     }
   }
+  .nav-link.active {
+    color: $primary !important;
+  }
 
   &.scrolled {
     position: fixed;
@@ -269,6 +272,21 @@ h5,
         }
       }
       &.cta {
+        > a {
+          color: $white !important;
+          background: $primary;
+          border: none !important;
+          padding-top: 0.5rem !important;
+          padding-bottom: 0.5rem !important;
+          padding-left: 20px !important;
+          padding-right: 20px !important;
+          margin-top: 6px !important;
+          @include border-radius(5px);
+          span {
+            display: inline-block;
+            color: $white !important;
+          }
+        }
         > a {
           color: $white !important;
           background: $primary;

@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next'
 import PolandLogo from '../images/poland.svg'
 import USALogo from '../images/united-states.svg'
+import { NavHashLink, HashLink } from 'react-router-hash-link';
 
 const Header = () => {
   const { t, i18n } = useTranslation();
@@ -17,14 +18,13 @@ const Header = () => {
           <span className="oi oi-menu"></span> Menu</button>
         <div className="collapse navbar-collapse" id="ftco-nav">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item active"><a href="#Home" className="nav-link">Blue Axes</a></li>
-            <li className="nav-item"><a href="#About" className="nav-link">{t('navigation.aboutUs')}</a></li>
-            <li className="nav-item"><a href="#Mission" className="nav-link">{t('navigation.mission')}</a></li>
-            <li className="nav-item"><a href="#Projects" className="nav-link">{t('navigation.projects')}</a></li>
-            <li className="nav-item"><a href="#Clients" className="nav-link">{t('navigation.clients')}</a></li>
-            <li className="nav-item"><a href="#Contact" className="nav-link">{t('navigation.contact')}</a></li>
-            <li className="nav-item"><a href="#Offer" className="nav-link">{t('navigation.offer')}</a></li>
-            <li className="nav-item"><a href="#Team" className="nav-link">{t('navigation.team')}</a></li>
+            <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#About">{t('navigation.aboutUs')}</NavHashLink></li>
+            <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Mission">{t('navigation.mission')}</NavHashLink></li>
+            <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Projects">{t('navigation.projects')}</NavHashLink></li>
+            <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Clients">{t('navigation.clients')}</NavHashLink></li>
+            <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Contact">{t('navigation.contact')}</NavHashLink></li>
+            <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Offer">{t('navigation.offer')}</NavHashLink></li>
+            <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Team">{t('navigation.team')}</NavHashLink></li>
           </ul>
           <img src={PolandLogo} style={{ width: '25px', marginLeft: '5px', cursor: 'pointer' }} alt="Polski" onClick={() => changeLanguage('pl')} />
           <img src={USALogo} style={{ width: '25px', marginLeft: '5px', cursor: 'pointer' }} alt="English" onClick={() => changeLanguage('en')} />
