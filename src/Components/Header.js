@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next'
 import PolandLogo from '../images/poland.svg'
 import USALogo from '../images/united-states.svg'
-import { NavHashLink, HashLink } from 'react-router-hash-link';
+import { NavHashLink } from 'react-router-hash-link';
 
 const Header = () => {
   const { t, i18n } = useTranslation();
