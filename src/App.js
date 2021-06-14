@@ -10,19 +10,22 @@ import Clients from './Components/Clients';
 import Offer from './Components/Offer';
 import Team from './Components/Team';
 import Contact from './Components/Contact';
+import ScriptTag from 'react-script-tag';
 
 function App() {
+
   return (
     <div>
+      <ScriptTag type="text/javascript" src="./js/owl.carousel.min" />
       <Header />
       <AboutUs />
-      <Counters/>
-      <Mission/>
-      <Projects/>
-      <Clients/>
-      <Contact/>
-      <Offer/>
-      <Team/>
+      <Counters />
+      <Mission />
+      <Projects />
+      <Clients />
+      <Contact />
+      <Offer />
+      <Team />
     </div>
   );
 }

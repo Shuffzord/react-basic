@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 
 const Counters = () => {
     const { t } = useTranslation();
+
     return (
         <div>
             <section class="ftco-counter img" id="section-counter">
@@ -16,9 +17,9 @@ const Counters = () => {
                         </div>
                         <div class="col-md-6 col-lg-4 justify-content-center counter-wrap ftco-animate">
                             <div class="block-18 py-md-5 mb-md-4">
-                            <Counter title={t('counters.happy_customers')} start={0} end={300}/>
+                                <Counter title={t('counters.happy_customers')} start={0} end={350} />
                             </div>
-                        </div>                        
+                        </div>
                         <div class="col-md-6 col-lg-4 justify-content-center counter-wrap ftco-animate">
                             <div class="block-18 py-md-5 mb-md-4">
                                 <Counter title={t('counters.square_meters')} suffix="m²" start={0} end={150000} />

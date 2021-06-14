@@ -1,1 +1,2 @@
 - What to show in counters
+- Blue axes Logo

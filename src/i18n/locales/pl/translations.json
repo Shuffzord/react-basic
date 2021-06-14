@@ -2,8 +2,48 @@
     "clients": {
         "testimonials": "Referencje",
         "header": "Zadowoleni klienci",
-        "client_panattoni": "PANATTONI EUROPE",
-        "client_panattoni_reviewer": "Andrzej Przesymycki"
+        "pannatoni": {
+            "name": "PANATTONI EUROPE",
+            "reviewer": "Andrzej Przesymycki",
+            "date": "Pannatoni description",
+            "description": "Pannatoni description",
+            "image": "person_1.jpg"
+        },
+        "menard": {
+            "name": "MENARD DOSWELL & CO.",
+            "reviewer": "Andrzej Przesymycki",
+            "date": "Pannatoni description",
+            "description": "Pannatoni description",
+            "image": "person_1.jpg"
+        },
+        "exeter": {
+            "name": "Exeter Property Group",
+            "reviewer": "Andrzej Przesymycki",
+            "date": "Pannatoni description",
+            "description": "Pannatoni description",
+            "image": "person_1.jpg"
+        },
+        "caimmo": {
+            "name": "CA IMMO",
+            "reviewer": "Andrzej Przesymycki",
+            "date": "Pannatoni description",
+            "description": "Pannatoni description",
+            "image": "person_1.jpg"
+        },
+        "dlinvestgroup": {
+            "name": "DL INVEST GROUP",
+            "reviewer": "Andrzej Przesymycki",
+            "date": "Pannatoni description",
+            "description": "Pannatoni description",
+            "image": "person_1.jpg"
+        },
+        "gerda": {
+            "name": "GERDA",
+            "reviewer": "Andrzej Przesymycki",
+            "date": "Pannatoni description",
+            "description": "Pannatoni description",
+            "image": "person_1.jpg"
+        }
     },
     "counters": {
         "projects_done": "Skończonych projektów",

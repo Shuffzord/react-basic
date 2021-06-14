@@ -1,9 +1,15 @@
-import React from 'react';
+import React, {  } from 'react';
+import AboutBackground from '../images/bg_2.jpg'
+import { Parallax } from 'react-scroll-parallax';
+
 const AboutUs = () => {
     return (
         <div>
-            {/* <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5"> */}
-            <section class="hero-wrap hero-wrap-2" data-stellar-background-ratio="0.5">
+            <section data-stellar-background-ratio="0.5" >
+                <Parallax className="hero-wrap hero-wrap-2" >
+                    <img class="hero-wrap hero-wrap-2" src={AboutBackground} alt="" />
+                </Parallax>
+
                 <div class="overlay"></div>
                 <div class="container">
                     <div class="row no-gutters slider-text js-fullheight align-items-end">
@@ -39,7 +45,7 @@ const AboutUs = () => {
                         </div> */}
                     </div>
                 </div>
-            </section>                        
+            </section>
 
         </div>
     );
