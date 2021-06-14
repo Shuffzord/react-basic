@@ -10,7 +10,7 @@ import Clients from './Components/Clients';
 import Offer from './Components/Offer';
 import Team from './Components/Team';
 import Contact from './Components/Contact';
-
+import { Route } from 'react-router-dom'
 import '../node_modules/slick-carousel/slick/slick.css'
 import '../node_modules/slick-carousel/slick/slick-theme.css'
 
@@ -18,14 +18,16 @@ function App() {
   return (
     <div>
       <Header />
-      <AboutUs />
-      <Counters />
-      <Mission />
-      <Projects />
-      <Clients />
-      <Contact />
-      <Offer />
-      <Team />
+      <Route path="/" >
+        <AboutUs />
+        <Counters />
+        <Mission />
+        <Projects />
+        <Clients />
+        <Contact />
+        <Offer />
+        <Team />
+      </Route>
     </div>
   );
 }
