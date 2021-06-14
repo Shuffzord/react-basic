@@ -1,3 +1,3 @@
 - What to show in counters
 - Blue axes Logo
-- Lista Team Members
+- Lista Team Members + dane

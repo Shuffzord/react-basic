@@ -33,9 +33,9 @@ const Clients = () => {
             <h2 className="mb-3">{t('clients.header')}</h2>
           </div>
         </div>
-        <div class="row ftco-animate">
-          <div class="col-md-12">
-            <div class="carousel-testimony owl-carousel">
+        <div className="row ftco-animate">
+          <div className="col-md-12">
+            <div className="carousel-testimony owl-carousel">
               <Slider {...settings}>
                 {clients.map((client) => {
                   return <Client key={client} client={client} />

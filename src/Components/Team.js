@@ -65,9 +65,9 @@ const Team = () => {
             <h2 className="mb-3">{t('team.header')}</h2>
           </div>
         </div>
-        <div class="row ftco-animate">
-          <div class="col-md-12">
-            <div class="carousel-testimony owl-carousel">
+        <div className="row ftco-animate">
+          <div className="col-md-12">
+            <div className="carousel-testimony owl-carousel">
               <Slider {...settings}>
                 {team.map((member) => {
                   return <TeamMember key={member.name} member={member} />
