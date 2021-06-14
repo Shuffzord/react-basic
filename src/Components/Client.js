@@ -3,8 +3,8 @@ import { useTranslation } from 'react-i18next'
 
 const Client = (props) => {
     const { t } = useTranslation();
-    const imageName = t(`clients.${props.client}.image`);
-    const imageUrl = require(`../images/${imageName}`)
+    // const imageName = t(`clients.${props.client}.image`);
+    // const imageUrl = require(`../images/${imageName}`)
 
     return (
         <div className="testimony-container">
