@@ -1312,15 +1312,18 @@ textarea.form-control {
 //TEAM
 .team-container {
   padding: 1em 0 4em 0;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .team-wrap {
   display: block;
   position: relative;
   background: rgba(255, 255, 255, 1);
+  border-radius: 30px;
   padding: 0 20px;
   min-height: 200px;
-  margin: 5px;
+  margin: 10px;
   border: 1px solid rgba(0, 0, 0, 0.02);
   -webkit-box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
@@ -1365,6 +1368,7 @@ textarea.form-control {
   position: relative;
   background: rgba(255, 255, 255, 1);
   padding: 0 20px;
+  border-radius: 40px;
   min-height: 500px;
   margin: 3px;
   border: 1px solid rgba(0, 0, 0, 0.02);
