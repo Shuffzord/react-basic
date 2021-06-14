@@ -7,16 +7,17 @@ const Client = (props) => {
     const imageUrl = require(`../images/${imageName}`)
 
     return (
-        <div class="item">
-            <div class="testimony-wrap py-4">
-                <div class="text">
-                    <span class="fa fa-quote-left"></span>
-                    <p class="mb-4">{t(`clients.${props.client}.description`)}</p>
-                    <div class="d-flex align-items-center">
-                        <div class="user-img" style={{ backgroundImage: `url("${imageUrl}` }}></div>
-                        <div class="pl-3">
-                            <p class="name">{t(`clients.${props.client}.name`)}</p>
-                            <span class="position">{t(`clients.${props.client}.reviewer`)}</span>
+        <div className="item">
+            <div className="testimony-wrap py-4">
+                <div className="text">
+                    <span className="fa fa-quote-left"></span>
+                    <p className="mb-4">{t(`clients.${props.client}.description`)}</p>
+                    <div className="d-flex align-items-center">
+                        <div className="user-img" style={{ backgroundImage: `url("${imageUrl}` }}></div>
+                        <div className="pl-3">
+                            <p className="name">{t(`clients.${props.client}.name`)}</p>
+                            <span className="position">{t(`clients.${props.client}.reviewer`)}</span>
+                            <p className="position">{t(`clients.${props.client}.date`)}</p>
                         </div>
                     </div>
                 </div>

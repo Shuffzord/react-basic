@@ -7,19 +7,19 @@ const Clients = () => {
   const clients = ['pannatoni', 'menard', 'exeter', 'caimmo', 'dlinvestgroup', 'gerda']
 
   return (
-    <section class="ftco-section testimony-section bg-light">
-      <div class="container">
-        <div class="row justify-content-center mb-5">
-          <div class="col-md-7 text-center heading-section ">
-            <span class="subheading">{t('clients.testimonials')}</span>
-            <h2 class="mb-3">{t('clients.header')}</h2>
+    <section className="ftco-section testimony-section bg-light">
+      <div className="container">
+        <div className="row justify-content-center mb-5">
+          <div className="col-md-7 text-center heading-section ">
+            <span className="subheading">{t('clients.testimonials')}</span>
+            <h2 className="mb-3">{t('clients.header')}</h2>
           </div>
         </div>
-        <div class="row ftco-animate">
-          <div class="col-md-12">
-            <div class="carousel-testimony owl-carousel">
+        <div className="row ftco-animate">
+          <div className="col-md-12">
+            <div className="carousel-testimony owl-carousel">
               {clients.map((client) => {
-                return <Client client={client} />
+                return <Client key={client} client={client} />
               })}
             </div>
           </div>
