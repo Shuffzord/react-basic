@@ -25,8 +25,8 @@ const Contact = () => {
                 <span className="fa fa-chevron-right"></span>
               </div>
               <div>
-                <span>NIP:</span> <span>118-060-31-42 </span></div>
-              <div><span>REGON:</span> <span>010492372</span></div>
+                <span>NIP:</span> 118-060-31-42 </div>
+              <div><span>REGON:</span> 010492372</div>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@ const Contact = () => {
               <div className="icon">
                 <span className="fa fa-map"></span>
               </div>
-              <p><span>{t('contact.address')}:</span> ul.Kasprowicza 47  
+              <p><span>{t('contact.address')}:</span> ul.Kasprowicza 47
               01-836 Warszawa</p>
 
             </div>
