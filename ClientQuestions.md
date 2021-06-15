@@ -1,3 +1,3 @@
-- What to show in counters
-- Blue axes Logo
-- Lista Team Members + dane
+- Co pokazac w licznikach
+- Blue axes Logo (PNG)
+- Lista Team Members (imie nazwisko, stanowisko, zdjecie, opis jezeli ma byc jakis)

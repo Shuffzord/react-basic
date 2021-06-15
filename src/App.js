@@ -24,9 +24,9 @@ function App() {
         <Mission />
         <Projects />
         <Clients />
-        <Contact />
         <Offer />
         <Team />
+        <Contact />
       </Route>
     </div>
   );

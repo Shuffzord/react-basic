@@ -7,10 +7,10 @@ const Team = () => {
   const { t } = useTranslation();
   const photos = {
     mc: require('../images/person_1.jpg'),
-    // a1: require('./logos/small_a1_logo.png'),
-    // kc: require('./logos/small_kc_logo.png'),
-    // nv: require('./logos/small_nv_logo.png'),
-    // other: require('./logos/small_other_logo.png'),
+    mc2: require('../images/person_2.jpg'),
+    mc3: require('../images/team-4.jpg'),
+    mc4: require('../images/person_4.jpg'),
+    mc5: require('../images/team-1.jpg'),
   };
   const team = [
     {
@@ -20,22 +20,28 @@ const Team = () => {
       'photo': photos.mc,
     },
     {
-      'name': 'Marek Cywiński',
+      'name': 'Tomasz Grochowski',
       'role': 'architect',
-      'contact': 'mcywinski@blueaxes.pl',
-      'photo': photos.mc,
+      'contact': 'tgrochowski@blueaxes.pl',
+      'photo': photos.mc2,
     },
     {
-      'name': 'Marek Cywiński',
+      'name': 'Agnieszka Nowik',
       'role': 'architect',
-      'contact': 'mcywinski@blueaxes.pl',
-      'photo': photos.mc,
+      'contact': 'anowik@blueaxes.p',
+      'photo': photos.mc3,
     },
     {
-      'name': 'Marek Cywiński',
+      'name': 'Marcin Nowak',
       'role': 'architect',
-      'contact': 'mcywinski@blueaxes.pl',
-      'photo': photos.mc,
+      'contact': 'mnowak@blueaxes.pl',
+      'photo': photos.mc4,
+    },
+    {
+      'name': 'Piotr Karlicki',
+      'role': 'architect',
+      'contact': 'pkarlicki@blueaxes.pl',
+      'photo': photos.mc5,
     },
   ]
   const settings = {

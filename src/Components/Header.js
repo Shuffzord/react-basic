@@ -22,9 +22,9 @@ const Header = () => {
             <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Mission">{t('navigation.mission')}</NavHashLink></li>
             <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Projects">{t('navigation.projects')}</NavHashLink></li>
             <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Clients">{t('navigation.clients')}</NavHashLink></li>
-            <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Contact">{t('navigation.contact')}</NavHashLink></li>
             <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Offer">{t('navigation.offer')}</NavHashLink></li>
-            <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Team">{t('navigation.team')}</NavHashLink></li>
+            <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Team">{t('navigation.team')}</NavHashLink></li>            
+            <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Contact">{t('navigation.contact')}</NavHashLink></li>
           </ul>
           <img src={PolandLogo} style={{ width: '25px', marginLeft: '5px', cursor: 'pointer' }} alt="Polski" onClick={() => changeLanguage('pl')} />
           <img src={USALogo} style={{ width: '25px', marginLeft: '5px', cursor: 'pointer' }} alt="English" onClick={() => changeLanguage('en')} />

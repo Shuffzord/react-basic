@@ -63,5 +63,12 @@
         "contact": "Kontakt",
         "offer": "Oferta",
         "team": "Zespół"
+    },
+    "contact": {
+        "phone": "tel.",
+        "mobile": "kom.",
+        "address": "Adres",
+        "contact": "Kontakt",
+        "companyInfo": "Dane firmy"
     }
 }

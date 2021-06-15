@@ -63,5 +63,12 @@
         "contact": "Contact",
         "offer": "Offer",
         "team": "Team"
+    },
+    "contact": {
+        "phone": "Phone",
+        "mobile": "Mobile",
+        "address": "Address",
+        "contact": "Contact",
+        "companyInfo": "Company information"
     }
 }
