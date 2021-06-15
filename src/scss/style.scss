@@ -1726,18 +1726,12 @@ textarea.form-control {
   }
 }
 
-@keyframes cf3FadeInOut {
+@keyframes FadeIn {
   0% {
-    opacity: 0.5;
-  }
-  25% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 0.4;
-  }
-  75% {
-    opacity: 0.25;
+    opacity: 0.5;
   }
   100% {
     opacity: 0;
@@ -1745,10 +1739,10 @@ textarea.form-control {
 }
 
 .image-opacity {
-  animation-name: cf3FadeInOut;
+  animation-name: FadeIn;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
-  animation-duration: 10s;
+  animation-duration: 3s;
   animation-direction: reverse;
 }
 

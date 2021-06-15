@@ -12,7 +12,7 @@ const AboutUs = () => {
         temp4: require('../images/temp4.jpg')
     };
     return (
-        <section id="About" className="hero-wrap image-opacity" style={{ backgroundImage: `url("${maps.temp4}")`, opacity:'0.4' }}>
+        <section id="About" className="hero-wrap image-opacity" style={{ backgroundImage: `url("${maps.temp}")` }}>
         {/* <section id="About" className="hero-wrap"> */}
             <div className="container">
                 {/* <div id="cf">
