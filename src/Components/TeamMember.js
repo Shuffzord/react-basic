@@ -12,7 +12,7 @@ const TeamMember = (props) => {
                     <div className="d-flex align-items-center">
                         <div className="pl-3">
                             <p className="name">{props.member.name}</p>
-                            <span className="position">{t(`${props.member.role}`).toUpperCase()}</span>
+                            <span className="position">{t(props.member.role).toUpperCase()}</span>
                             <p className="position email">{props.member.contact}</p>
                         </div>
                     </div>
