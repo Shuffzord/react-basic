@@ -19,10 +19,10 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="ftco-nav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#About">{t('navigation.aboutUs')}</NavHashLink></li>
+            <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Offer">{t('navigation.offer')}</NavHashLink></li>
             <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Mission">{t('navigation.mission')}</NavHashLink></li>
             <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Projects">{t('navigation.projects')}</NavHashLink></li>
             <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Clients">{t('navigation.clients')}</NavHashLink></li>
-            <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Offer">{t('navigation.offer')}</NavHashLink></li>
             <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Team">{t('navigation.team')}</NavHashLink></li>            
             <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Contact">{t('navigation.contact')}</NavHashLink></li>
           </ul>

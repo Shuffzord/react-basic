@@ -4,7 +4,6 @@ import Header from './Components/Header';
 import AboutUs from './Components/AboutUs'
 import './scss/style.scss'
 import './css/animate.css'
-import './css/flaticon.css'
 import Mission from './Components/Mission';
 import Projects from './Components/Projects';
 import Clients from './Components/Clients';
