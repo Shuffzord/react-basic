@@ -12,8 +12,8 @@ const AboutUs = () => {
         temp4: require('../images/temp4.jpg')
     };
     return (
-        <section id="About" className="hero-wrap image-opacity" style={{ backgroundImage: `url("${maps.temp}")` }}>
-        {/* <section id="About" className="hero-wrap"> */}
+        <section id="About" className="hero-wrap image-opacity" style={{ backgroundImage: `url("${maps.temp4}")`, opacity: '0.5' }}>
+            {/* <section id="About" className="hero-wrap"> */}
             <div className="container">
                 {/* <div id="cf">
                     <img className="bottom" src={maps.m2} style={{ width: '100%'  }} alt="map" />
@@ -33,7 +33,7 @@ const AboutUs = () => {
                             </div>
                         </div>
                     </div> */}
-                    {/* <div className="col-lg-5 ">
+                {/* <div className="col-lg-5 ">
                             <div className="heading-section pr-md-5">
                                 <p>Domeną naszej pracowni są hale przemysłowe, hale magazynowe, centra logistyczne oraz obiekty biurowe wraz z cała towarzysząca infrastrukturą</p>
                             </div>
