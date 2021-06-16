@@ -9,7 +9,7 @@ const Header = () => {
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   }
-  const logo = require('../images/logo.jpg')
+  const logo = require('../images/logo.png')
   return (
     <nav className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
       <div className="container-fluid">

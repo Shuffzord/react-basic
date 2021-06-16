@@ -1,3 +1,4 @@
 - Co pokazac w licznikach
 - Blue axes Logo (PNG)
 - Lista Team Members (imie nazwisko, stanowisko, zdjecie, opis jezeli ma byc jakis)
+- Dostęp OVH

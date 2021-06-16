@@ -118,8 +118,8 @@ h5,
   right: 0;
   z-index: 3;
   @include media-breakpoint-down(md) {
-    background: $black !important;
-    position: relative;
+    background: white !important;
+    position: sticky;
     top: 0;
   }
 
@@ -156,7 +156,6 @@ h5,
           padding-left: 0;
           padding-right: 0;
           padding-bottom: 0;
-          color: $white;
         }
       }
 
@@ -232,7 +231,7 @@ h5,
   }
   .navbar-toggler {
     border: none;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: black !important;
     cursor: pointer;
     padding-right: 0;
     text-transform: uppercase;
@@ -242,6 +241,7 @@ h5,
     &:focus {
       text-decoration: none;
       color: $primary;
+      box-shadow: none !important;
       outline: none !important;
     }
   }
@@ -256,7 +256,6 @@ h5,
     top: 0;
     margin-top: -130px;
     background: $white !important;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     .nav-item {
       > .nav-link {
         @include media-breakpoint-down(md) {
@@ -287,7 +286,7 @@ h5,
           }
         }
         > a {
-          color: $white !important;
+          color: black !important;
           background: $primary;
           border: none !important;
           padding-top: 0.5rem !important;
