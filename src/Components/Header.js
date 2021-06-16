@@ -9,11 +9,12 @@ const Header = () => {
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   }
-
+  const logo = require('../images/logo.jpg')
   return (
     <nav className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
       <div className="container-fluid">
-        <a className="navbar-brand" href="Home">BlueAxes</a>
+        {/* <a className="navbar-brand" href="Home">BlueAxes</a> */}
+        <img className="bottom" src={logo} style={{ height: '55px'  }} alt="BlueAxes" />
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="oi oi-menu"></span> Menu</button>
         <div className="collapse navbar-collapse" id="ftco-nav">
