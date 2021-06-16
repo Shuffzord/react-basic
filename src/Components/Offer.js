@@ -8,7 +8,7 @@ const Offer = () => {
   return (
     <section id="Offer" className="ftco-section ftco-no-pb ftco-no-pt bg-primary">
       <div className="container">
-        <div className="row d-flex no-gutters">
+        <div className="row d-flex g-0">
           <div className="col-md-3 d-flex align-items-stretch ftco-animate">
             <div className="media block-6 services services-bg d-block text-center px-4 py-5">
               <div className="icon d-flex justify-content-center align-items-center"> <div className="icon">
