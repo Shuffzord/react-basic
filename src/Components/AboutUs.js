@@ -1,4 +1,4 @@
-import React, { } from 'react';
+import React from 'react';
 // import AboutBackground from '../images/bg_2.jpg'
 // import { Parallax } from 'react-scroll-parallax';
 
@@ -12,14 +12,14 @@ const AboutUs = () => {
         temp4: require('../images/temp4.jpg')
     };
     return (
-        <section id="About" className="hero-wrap image-opacity" style={{ backgroundImage: `url("${maps.temp4}")`, opacity: '0.5' }}>
-            {/* <section id="About" className="hero-wrap"> */}
-            <div className="container">
-                {/* <div id="cf">
+            <section id="About" className="hero-wrap image-opacity" style={{ backgroundImage: `url("${maps.temp}")`, opacity: '0.5' }}>
+                {/* <section id="About" className="hero-wrap"> */}
+                <div className="container">
+                    {/* <div id="cf">
                     <img className="bottom" src={maps.m2} style={{ width: '100%'  }} alt="map" />
                     <img className="top" src={maps.m1} style={{ width: '100%' }} alt="map" />
                 </div> */}
-                {/* <div className="row">
+                    {/* <div className="row">
                     <div className="col-lg-7 order-md-last d-md-flex align-items-stretch">
 
                         <div className="img mr-md-2"></div>
@@ -33,14 +33,14 @@ const AboutUs = () => {
                             </div>
                         </div>
                     </div> */}
-                {/* <div className="col-lg-5 ">
+                    {/* <div className="col-lg-5 ">
                             <div className="heading-section pr-md-5">
                                 <p>Domeną naszej pracowni są hale przemysłowe, hale magazynowe, centra logistyczne oraz obiekty biurowe wraz z cała towarzysząca infrastrukturą</p>
                             </div>
                         </div> */}
-                {/* </div> */}
-            </div>
-        </section>
+                    {/* </div> */}
+                </div>
+            </section>
 
     );
 }
