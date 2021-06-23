@@ -836,6 +836,33 @@ h5,
 
 //PROJECTS
 #Projects {
+  
+form{
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 40px 0;
+}
+
+input{
+  display: none;
+}
+
+label{
+  background: #faa7b7;
+  color: #fff;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+input:checked~label{
+  background: #a8b4fc;
+  padding: 5px 10px;
+  border-radius: 10px;
+  box-shadow: 5px 2px 15px #a8b4fc80;
+}
   ul {
     display: flex;
     flex-wrap: wrap;
@@ -861,8 +888,8 @@ h5,
 }
 
 img{
-  width: 300px;
-  height: 250px;
+  width: 20em;
+  height: 15em;
   left: 0;
   object-fit: cover;
   border-radius: 20px;
