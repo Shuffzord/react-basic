@@ -5,7 +5,6 @@ const TeamMember = (props) => {
     const { t } = useTranslation();
     return (
         <div className="team-container">
-
             <div className="team-wrap py-4">
                 <div className="user-img" style={{ backgroundImage: `url("${props.member.photo}` }}></div>
                 <div className="text">

@@ -28,6 +28,26 @@ html {
   transition: all $transition ease;
 }
 
+$transition-base:             all .2s ease-in-out !default;
+$transition-fade:             opacity .15s linear !default;
+$transition-collapse:         height .35s ease !default;
+$enable-transitions:        true !default;
+
+@mixin projectsTransition($transition...) {
+  @if $enable-transitions {
+    @if length($transition) == 0 {
+      transition: $transition-base;
+    } @else {
+      transition: $transition;
+    }
+  }
+
+  @media screen and (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+}
+
+
 @mixin gradient-background() {
   background: rgba(0, 0, 0, 1);
   background: -moz-linear-gradient(
@@ -814,7 +834,77 @@ h5,
   }
 }
 
-// USEFUL CODE
+//PROJECTS
+#Projects {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  li{
+    margin: 10px 10px;
+  }
+  figure{
+    z-index: 1;
+    min-width: 300px;
+    overflow: hidden;
+    margin: 0 5px;
+    animation: show .8s ease;
+  }
+  
+@keyframes show {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+img{
+  width: 300px;
+  height: 250px;
+  left: 0;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 10px 15px #a8b4fc30;
+}
+
+figcaption{
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+figure figcaption{
+  margin: 0;
+  position: relative;
+  z-index: -1;
+}
+
+figure:hover figcaption{
+  opacity: 1;
+  transform: translateY(-19px);
+}
+
+figcaption{
+  opacity: 0;
+  transform: translateY(-200px);
+  background: white;
+  border-radius: 0  0 20px 20px;
+  padding: 30px 0 20px 0;
+  transition: .3s;
+}
+
+span{
+  font-size: 18px;
+  font-weight: 300;
+  color: darken($primary,20);
+}
+}
+
+//PROJECTS END
+
+
 .aside-stretch {
   background: lighten($primary, 10%);
   &:after {

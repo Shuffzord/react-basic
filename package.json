@@ -22,6 +22,7 @@
     "react-scripts": "3.4.0",
     "react-scroll-parallax": "^2.4.0",
     "react-slick": "^0.28.1",
+    "react-visibility-sensor": "^5.1.1",
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
