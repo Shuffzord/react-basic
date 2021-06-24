@@ -74,7 +74,9 @@ const Projects = () => {
     if (allFiltersTrue || allFiltersFalse) {
       setAll();
     }
-    updateProjects();
+    else {
+      updateProjects();
+    }
   }
 
   const updateProjects = () => {

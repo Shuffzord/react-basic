@@ -8,7 +8,7 @@ $black: #000000;
 $primary: #81cfff;
 $secondary: #e16262;
 $darken: #21243d;
-$grayish: #c0c0c0;
+$grayish: rgba(0, 0, 0, 0.25);
 
 html {
   scroll-behavior: smooth;
@@ -836,11 +836,11 @@ h5,
 }
 
 //PROJECTS
+
 #Projects {    
   form{
     display: flex;
     justify-content: center;
-    margin: 30px 0 40px 0;
   }
 
   input{
@@ -850,16 +850,15 @@ h5,
   label{
     background: $grayish;
     color: #fff;
-    font-weight: 700;
+    font-weight: 400;
     padding: 5px 10px;
     border-radius: 10px;
-    transition: .3s;
+    transition: 1s;
     cursor: pointer;
   }
 
   input:checked~label{
     background: $primary;
-    padding: 5px 10px;
     border-radius: 10px;
     box-shadow: 5px 2px 15px #a8b4fc80;
   }
@@ -872,7 +871,7 @@ h5,
     }
     
     li{
-      margin: 10px 10px;
+      margin: 1em;
     }
     figure{
       z-index: 1;
@@ -919,7 +918,7 @@ h5,
     background: white;
     border-radius: 0  0 20px 20px;
     padding: 30px 0 20px 0;
-    transition: .3s;
+    transition: .5s;
   }
 
   span{
