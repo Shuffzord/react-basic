@@ -9,18 +9,21 @@ const Filters = (props) => {
                     <input
                         type="checkbox"
                         checked={all}
+                        onChange={onClickAll}
                     />
                     <label htmlFor="all">All</label>
                 </li>
                 {filters.map(
                     (filter, i) =>
                         <li key={i} data-index={i} onClick={onClick} >
+                          
                             <input
                                 id={filter.name}
                                 type="checkbox"
                                 checked={filter.status}
+                                onChange={onClick}
                             />
-                            <label htmlFor={filter.name}>{filter.name}</label>
+                            <label htmlFor={filter.name}>{filter.name}  <span>{filter.status}</span></label>
                         </li>)}
             </ul>
         </form>
