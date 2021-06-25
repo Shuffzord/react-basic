@@ -70,5 +70,14 @@
         "address": "Address",
         "contact": "Contact",
         "companyInfo": "Company information"
+    },
+    "projects": {
+        "header": "Projects"
+    },
+    "mission": {
+        "header": "Our Mission"
+    },
+    "aboutUs": {
+        "header": "About Us"
     }
 }

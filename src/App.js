@@ -16,19 +16,22 @@ import '../node_modules/slick-carousel/slick/slick-theme.css'
 
 function App() {
   return (
-      <div>
-        <Header />
-        <Route path="/" >
-          <AboutUs />
-          <Offer />
-          <Counters />
-          <Mission />
-          <Projects />
-          <Clients />
-          <Team />
-          <Contact />
-        </Route>
-      </div>
+    <div>
+      <Header />
+      <Route path="/Project/:id" >
+        <Projects />
+      </Route>
+      <Route path="/" >
+        <AboutUs />
+        <Offer />
+        <Counters />
+        <Mission />
+        <Projects />
+        <Clients />
+        <Team />
+        <Contact />
+      </Route>
+    </div>
   );
 }
 

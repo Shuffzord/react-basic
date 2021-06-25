@@ -70,5 +70,14 @@
         "address": "Adres",
         "contact": "Kontakt",
         "companyInfo": "Dane firmy"
+    },
+    "projects": {
+        "header": "Projekty"
+    },
+    "mission": {
+        "header": "Misja"
+    },
+     "aboutUs": {
+        "header": "Hasło przyciągające uwagę"
     }
 }

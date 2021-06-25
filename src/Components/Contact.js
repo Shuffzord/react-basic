@@ -43,7 +43,7 @@ const Contact = () => {
                 <span className="fa fa-map"></span>
               </div>
               <p><span>{t('contact.address')}:</span> ul.Kasprowicza 47
-              01-836 Warszawa</p>
+                01-836 Warszawa</p>
 
             </div>
             <div className="col-md-4 text-center border-height ">

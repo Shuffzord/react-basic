@@ -1,6 +1,7 @@
 import React, { useState } from 'react'; //{ useState, useEffect }
 import Filters from './Filters';
 import ProjectCard from './ProjectCard';
+import { useTranslation } from 'react-i18next'
 
 var ENUM = {
   Filters: Object.freeze({
@@ -38,6 +39,7 @@ const ProjectsData = [
 ];
 
 const Projects = () => {
+  const { t } = useTranslation();
   const filters = [
     { name: ENUM.Filters.RECENT, status: false },
     { name: ENUM.Filters.BTS, status: false },
@@ -120,6 +122,11 @@ const Projects = () => {
   return (
 
     <section id="Projects" className="project-area section-gap-top pt-6">
+      <div className="row justify-content-center mt-5">
+        <div className="col-md-7 text-center heading-section ">
+          <span className="subheading">{t('projects.header')}</span>
+        </div>
+      </div>
       <Filters
         onClickAll={setAll}
         all={state.all}

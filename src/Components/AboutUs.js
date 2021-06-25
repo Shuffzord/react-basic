@@ -1,8 +1,8 @@
 import React from 'react';
-// import AboutBackground from '../images/bg_2.jpg'
-// import { Parallax } from 'react-scroll-parallax';
+import { useTranslation } from 'react-i18next'
 
 const AboutUs = () => {
+    const { t } = useTranslation();
     const maps = {
         empty: require('../images/mapka1.jpg'),
         filled: require('../images/mapka2.jpg'),
@@ -12,35 +12,23 @@ const AboutUs = () => {
         temp4: require('../images/temp4.jpg')
     };
     return (
-            <section id="About" className="hero-wrap image-opacity" style={{ backgroundImage: `url("${maps.temp}")`, opacity: '0.5' }}>
-                {/* <section id="About" className="hero-wrap"> */}
-                <div className="container">
-                    {/* <div id="cf">
-                    <img className="bottom" src={maps.m2} style={{ width: '100%'  }} alt="map" />
+        <section id="About" className="hero-wrap" style={{ backgroundImage: `url("${maps.temp}")` }}>
+            <div className="container">
+                {/* <div id="cf">
+                    <img className="bottom" src={maps.m2} style={{ width: '100%' }} alt="map" />
                     <img className="top" src={maps.m1} style={{ width: '100%' }} alt="map" />
                 </div> */}
-                    {/* <div className="row">
-                    <div className="col-lg-7 order-md-last d-md-flex align-items-stretch">
-
-                        <div className="img mr-md-2"></div>
-                        <div className="img  img-overlay ml-md-2 p-4" >
-                            <div className="request-quote py-5">
-                                <div className="py-2">
-                                    <span className="subheading">Be Part of our Business</span>
-                                    <h3>Request A Quote</h3>
-                                </div>
-                                <p>Domeną naszej pracowni są hale przemysłowe, hale magazynowe, centra logistyczne oraz obiekty biurowe wraz z cała towarzysząca infrastrukturą</p>
-                            </div>
+                <div className="row no-gutters slider-text align-items-center">
+                    <div className="col-md-10 col-lg-7 ftco-animate d-flex align-items-end">
+                        <div className="text">
+                            <h1 className="mb-4">{t('aboutUs.header')}</h1>
+                            <p>Ładny chwytliwy opis - kilka zdań
+                            </p>
                         </div>
-                    </div> */}
-                    {/* <div className="col-lg-5 ">
-                            <div className="heading-section pr-md-5">
-                                <p>Domeną naszej pracowni są hale przemysłowe, hale magazynowe, centra logistyczne oraz obiekty biurowe wraz z cała towarzysząca infrastrukturą</p>
-                            </div>
-                        </div> */}
-                    {/* </div> */}
+                    </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
     );
 }

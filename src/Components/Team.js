@@ -83,8 +83,8 @@ const Team = () => {
       <div className="container">
         <div className="row justify-content-center mb-5">
           <div className="col-md-7 text-center heading-section ">
-            {/* <span className="subheading"></span> */}
-            <h2 className="mb-3">{t('team.header')}</h2>
+            <span className="subheading">{t('team.header')}</span>
+            {/* <h2 className="mb-3">{t('team.header')}</h2> */}
           </div>
         </div>
         <div className="row ftco-animate">
