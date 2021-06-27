@@ -3,6 +3,10 @@ import { useTranslation } from 'react-i18next'
 
 const Mission = () => {
     const { t } = useTranslation();
+    const images = {
+        handshake: require('../images/mission/handshake.JPG'),
+
+    };
     return (
         <section id="Mission" className="ftco-section ftco-no-pb ftco-no-pt">
             <div className="container">
@@ -21,7 +25,7 @@ const Mission = () => {
 
                             <div className="row">
                                 <div className="col-lg-4">
-                                    <p>Naszą misją jest budowanie
+                                    <p><img src={images.handshake} style={{ width: 100, height: 100 }} alt="handshake" /> Naszą misją jest budowanie
                                         partnerskich, opartych na zaufaniu
                                         relacji z inwestorem i jego klientami.
                                     </p>

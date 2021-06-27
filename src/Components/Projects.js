@@ -2,41 +2,8 @@ import React, { useState } from 'react'; //{ useState, useEffect }
 import Filters from './Filters';
 import ProjectCard from './ProjectCard';
 import { useTranslation } from 'react-i18next'
-
-var ENUM = {
-  Filters: Object.freeze({
-    ALL: "ALL",
-    RECENT: "RECENT",
-    BTS: "BTS",
-    INDIVIDUAL: "INDIVIDUAL",
-    LOGISTICS: "LOGISTICS"
-  },
-  )
-};
-
-
-class Project {
-  constructor(id, title, description, image, tags) {
-    this.id = id;
-    this.title = title;
-    this.description = description;
-    this.image = image;
-    this.tags = [ENUM.Filters.ALL].concat(tags);
-  }
-}
-
-const ProjectsData = [
-  new Project(1, "Temporary 1", "Temporary 1", require('../images/image_1.jpg'), [ENUM.Filters.RECENT]),
-  new Project(2, "Temporary 2", "Temporary 2", require('../images/image_2.jpg'), [ENUM.Filters.BTS]),
-  new Project(3, "Temporary 2", "Temporary 2", require('../images/image_3.jpg'), [ENUM.Filters.INDIVIDUAL]),
-  new Project(4, "Temporary 2", "Temporary 2", require('../images/image_4.jpg'), [ENUM.Filters.INDIVIDUAL]),
-  new Project(5, "Temporary 2", "Temporary 2", require('../images/image_5.jpg'), [ENUM.Filters.INDIVIDUAL]),
-  new Project(6, "Temporary 2", "Temporary 2", require('../images/image_6.jpg'), [ENUM.Filters.INDIVIDUAL]),
-  new Project(7, "Temporary 2", "Temporary 2", require('../images/image_7.jpg'), [ENUM.Filters.INDIVIDUAL]),
-  new Project(8, "Temporary 2", "Temporary 2", require('../images/image_8.jpg'), [ENUM.Filters.INDIVIDUAL]),
-  new Project(9, "Temporary 2", "Temporary 2", require('../images/work-1.jpg'), [ENUM.Filters.INDIVIDUAL]),
-  new Project(10, "Temporary 2", "Temporary 2", require('../images/work-2.jpg'), [ENUM.Filters.INDIVIDUAL]),
-];
+import ENUM from '../data/Enums';
+import ProjectsData from '../data/ProjectsData';
 
 const Projects = () => {
   const { t } = useTranslation();
@@ -54,7 +21,6 @@ const Projects = () => {
     all: true
   };
   const [state, setState] = useState(initialState);
-
 
   const setFilter = (e) => {
     e.preventDefault();

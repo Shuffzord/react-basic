@@ -29,10 +29,10 @@ html {
   transition: all $transition ease;
 }
 
-$transition-base:             all .2s ease-in-out !default;
-$transition-fade:             opacity .15s linear !default;
-$transition-collapse:         height .35s ease !default;
-$enable-transitions:        true !default;
+$transition-base: all 0.2s ease-in-out !default;
+$transition-fade: opacity 0.15s linear !default;
+$transition-collapse: height 0.35s ease !default;
+$enable-transitions: true !default;
 
 @mixin projectsTransition($transition...) {
   @if $enable-transitions {
@@ -47,7 +47,6 @@ $enable-transitions:        true !default;
     transition: none;
   }
 }
-
 
 @mixin gradient-background() {
   background: rgba(0, 0, 0, 1);
@@ -837,17 +836,17 @@ h5,
 
 //PROJECTS
 
-#Projects {    
-  form{
+#Projects {
+  form {
     display: flex;
     justify-content: center;
   }
 
-  input{
+  input {
     display: none;
   }
 
-  label{
+  label {
     background: $grayish;
     color: #fff;
     font-weight: 400;
@@ -857,36 +856,40 @@ h5,
     cursor: pointer;
   }
 
-  input:checked~label{
+  input:checked ~ label {
     background: $primary;
     border-radius: 10px;
     box-shadow: 5px 2px 15px #a8b4fc80;
   }
-    ul {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      list-style: none;
-      padding: 0;
-    }
-    
-    li{
-      margin: 1em;
-    }
-    figure{
-      z-index: 1;
-      min-width: 300px;
-      overflow: hidden;
-      margin: 0 5px;
-      animation: show .8s ease;
-    }
-    
-  @keyframes show {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
   }
 
-  img{
+  li {
+    margin: 1em;
+  }
+  figure {
+    z-index: 1;
+    min-width: 300px;
+    overflow: hidden;
+    margin: 0 5px;
+    animation: show 0.8s ease;
+  }
+
+  @keyframes show {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  img {
     width: 20em;
     height: 15em;
     left: 0;
@@ -895,41 +898,40 @@ h5,
     box-shadow: 0 10px 15px #a8b4fc30;
   }
 
-  figcaption{
+  figcaption {
     font-size: 24px;
     margin-top: 20px;
     text-align: center;
   }
 
-  figure figcaption{
+  figure figcaption {
     margin: 0;
     position: relative;
     z-index: -1;
   }
 
-  figure:hover figcaption{
+  figure:hover figcaption {
     opacity: 1;
     transform: translateY(-19px);
   }
 
-  figcaption{
+  figcaption {
     opacity: 0;
     transform: translateY(-200px);
     background: white;
-    border-radius: 0  0 20px 20px;
+    border-radius: 0 0 20px 20px;
     padding: 30px 0 20px 0;
-    transition: .5s;
+    transition: 0.5s;
   }
 
-  span{
+  span {
     font-size: 18px;
     font-weight: 300;
-    color: darken($primary,20);
+    color: darken($primary, 20);
   }
 }
 
 //PROJECTS END
-
 
 .aside-stretch {
   background: lighten($primary, 10%);
@@ -1251,6 +1253,11 @@ textarea.form-control {
       color: rgba(255, 255, 255, 0.9);
     }
   }
+}
+
+.fullheight {
+  height: 80vh;
+  width: '100%';
 }
 
 //COVER BG

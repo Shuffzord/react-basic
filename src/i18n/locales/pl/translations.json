@@ -72,7 +72,12 @@
         "companyInfo": "Dane firmy"
     },
     "projects": {
-        "header": "Projekty"
+        "header": "Projekty",
+        "investor": "Inwestor",
+        "location": "Lokalizacja",
+        "warehouseSpace": "Powierzchnia magazynowa",
+        "area": "Powierzchnia parku",
+        "officeSpace": "Powierzchnia biurowa"
     },
     "mission": {
         "header": "Misja"

@@ -72,8 +72,13 @@
         "companyInfo": "Company information"
     },
     "projects": {
-        "header": "Projects"
-    },
+        "header": "Projects",
+        "investor": "Investor",
+        "location": "Location",
+        "warehouseSpace": "Warehouse Surface Area",
+        "area": "Park Surface Area",
+        "officeSpace": "Office Space"
+        },
     "mission": {
         "header": "Our Mission"
     },

@@ -10,27 +10,30 @@ import Clients from './Components/Clients';
 import Offer from './Components/Offer';
 import Team from './Components/Team';
 import Contact from './Components/Contact';
-import { Route } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 import '../node_modules/slick-carousel/slick/slick.css'
 import '../node_modules/slick-carousel/slick/slick-theme.css'
+import Project from './Components/Project';
 
 function App() {
   return (
     <div>
       <Header />
-      <Route path="/Project/:id" >
-        <Projects />
-      </Route>
-      <Route path="/" >
-        <AboutUs />
-        <Offer />
-        <Counters />
-        <Mission />
-        <Projects />
-        <Clients />
-        <Team />
-        <Contact />
-      </Route>
+      <Switch>
+        <Route exact path="/Project/:id" >
+          <Project />
+        </Route>
+        <Route exact path="/" >
+          <AboutUs />
+          <Offer />
+          <Counters />
+          <Mission />
+          <Projects />
+          <Clients />
+          <Team />
+          <Contact />
+        </Route>
+      </Switch>
     </div>
   );
 }
