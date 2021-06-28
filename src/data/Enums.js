@@ -2,9 +2,9 @@ var ENUM = {
     Filters: Object.freeze({
         ALL: "ALL",
         RECENT: "RECENT",
+        LOGISTICS: "LOGISTICS",
         BTS: "BTS",
-        INDIVIDUAL: "INDIVIDUAL",
-        LOGISTICS: "LOGISTICS"
+        PRIVATE: "PRIVATE",
     },
     )
 };

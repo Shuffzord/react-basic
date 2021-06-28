@@ -1,6 +1,9 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next'
 
 const Filters = (props) => {
+    
+  const { t } = useTranslation();
     const { onClickAll, all, onClick, filters } = props;
     return (
         <form>
@@ -18,12 +21,12 @@ const Filters = (props) => {
                         <li key={i} data-index={i} onClick={onClick} >
 
                             <input
-                                id={filter.name}
+                                id={t(`filters.${filter.name}`)}
                                 type="checkbox"
                                 checked={filter.status}
                                 onChange={onClick}
                             />
-                            <label htmlFor={filter.name}>{filter.name}</label>
+                            <label htmlFor={t(`filters.${filter.name}`)}>{t(`filters.${filter.name}`)}</label>
                         </li>)}
             </ul>
         </form>

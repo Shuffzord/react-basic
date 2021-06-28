@@ -78,11 +78,18 @@
         "warehouseSpace": "Warehouse Surface Area",
         "area": "Park Surface Area",
         "officeSpace": "Office Space"
-        },
+    },
+    "filters": {
+        "RECENT": "Recent",
+        "LOGISTICS": "Logistic Parks",
+        "BTS": "Build to suit",
+        "PRIVATE": "Individual Clients"
+    },
     "mission": {
         "header": "Our Mission"
     },
     "aboutUs": {
         "header": "About Us"
-    }
+    },
+    "gallery": "Gallery"
 }

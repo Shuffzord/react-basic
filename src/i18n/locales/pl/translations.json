@@ -79,10 +79,17 @@
         "area": "Powierzchnia parku",
         "officeSpace": "Powierzchnia biurowa"
     },
+    "filters": {
+        "RECENT": "Ostatnie",
+        "LOGISTICS" : "Parki Logistyczne",
+        "BTS" : "BTS Developerski",
+        "PRIVATE": "Klienci Prywatni"
+    },
     "mission": {
         "header": "Misja"
     },
      "aboutUs": {
         "header": "Hasło przyciągające uwagę"
-    }
+    },
+    "gallery" :"Galeria"
 }

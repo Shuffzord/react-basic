@@ -48,6 +48,10 @@ $enable-transitions: true !default;
   }
 }
 
+.slick-slide img {
+  margin: auto;
+  
+}
 @mixin gradient-background() {
   background: rgba(0, 0, 0, 1);
   background: -moz-linear-gradient(

@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next'
 import Client from './Client';
 import Slider from "react-slick";
+
 //TODO: Add images, move into components
 const Clients = () => {
   const { t } = useTranslation();

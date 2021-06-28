@@ -10,7 +10,7 @@ const Projects = () => {
   const filters = [
     { name: ENUM.Filters.RECENT, status: false },
     { name: ENUM.Filters.BTS, status: false },
-    { name: ENUM.Filters.INDIVIDUAL, status: false },
+    { name: ENUM.Filters.PRIVATE, status: false },
     { name: ENUM.Filters.LOGISTICS, status: false }
   ];
 

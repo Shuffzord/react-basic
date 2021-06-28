@@ -1,16 +1,53 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from "react-router-dom";
 import ProjectsData from '../data/ProjectsData';
 import { useTranslation } from 'react-i18next'
+import Slider from "react-slick";
 
 const Project = (props) => {
     const { t } = useTranslation();
     let { id } = useParams();
     const projects = ProjectsData.slice();
     const project = projects.find(x => x.id === +id);
-    // useEffect(() => {
-    //     window.scrollTo(0, 0);
-    // }, []);
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+    const settings = {
+        dots: true,
+        infinite: true,
+        autoplay: false,
+        speed: 1000,
+        autoplaySpeed: 2000,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    };
+
     if (!project) {
         return <div>No active project</div>
     }
@@ -45,7 +82,24 @@ const Project = (props) => {
                             </div>
                         </div>
                     </div>
+                    <div className="col-lg-12" >
+                        <div className="text-center heading-section ">
+                            <span className="subheading">{t('gallery')}</span>
+                        </div>
+                        <Slider {...settings}>
+                            {project.otherImages.map((image) => {
+                                return (
+                                    <div className="testimony-container">
+                                        <div className="testimony-wrap py-4">
+                                            <img src={image} style={{ width: '60vh', height: '60vh', borderRadius: 25 }} alt={project.title} />
+                                        </div>
+                                    </div>
+                                )
+                            })}
+                        </Slider>
+                    </div>
                 </div>
+
             </div>
         </section>
     )
