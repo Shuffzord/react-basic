@@ -67,9 +67,11 @@
     "contact": {
         "phone": "Phone",
         "mobile": "Mobile",
+        "studioAddress": "Studio Address",
         "address": "Address",
         "contact": "Contact",
-        "companyInfo": "Company information"
+        "companyInfo": "Company Information",
+        "invoices": "Invoices"
     },
     "projects": {
         "header": "Projects",

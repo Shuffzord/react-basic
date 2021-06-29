@@ -8,56 +8,35 @@ const Contact = () => {
         <div className="col-md-8">
           <div className="row">
             <div className="text-center col-md-12 mt-4">
-              <h2>{t('contact.companyInfo')}</h2>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-4 text-center">
-              <div className="icon">
-                <span className="fa fa-map"></span>
-              </div>
-              <p><span>{t('contact.address')}:</span> ul.Łosia 1, 05-807 Podkowa Leśna</p>
-
-            </div>
-            <div className="col-md-4 text-center border-height">
-              <div className="icon">
-                <span className="fa fa-chevron-right"></span>
-              </div>
-              <div>
-                <span>NIP:</span> 118-060-31-42 </div>
-              <div><span>REGON:</span> 010492372</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="row d-flex contact-info justify-content-center">
-        <div className="col-md-8">
-          <div className="row">
-            <div className="text-center col-md-12 mt-4">
               <h2>{t('contact.contact')}</h2>
             </div>
           </div>
           <div className="row">
+            <div className="col-md-4 text-center border-height">
+              <p><span>BLUE AXES Marek Cywiński Pracownia Projektowa</span></p>
+              <div>ul.Łosia 1, 05-807 Podkowa Leśna</div>
+              <div>
+                <span style={{ fontWeight: 'bold' }}>NIP:</span> 118-060-31-42
+              </div>
+              <div><span style={{ fontWeight: 'bold' }}>REGON:</span> 010492372</div>
+            </div>
             <div className="col-md-4 text-center">
               <div className="icon">
                 <span className="fa fa-map"></span>
               </div>
-              <p><span>{t('contact.address')}:</span> ul.Kasprowicza 47
+              <p><span>{t('contact.studioAddress')}:</span> ul.Kasprowicza 47
                 01-836 Warszawa</p>
-
-            </div>
-            <div className="col-md-4 text-center border-height ">
               <div className="icon">
                 <span className="fa fa-phone"></span>
               </div>
               <div><span>{t('contact.phone')}:</span> <a href="tel://+48228648118">+48 22 864 81 18 </a></div>
-              <div><span>{t('contact.mobile')}:</span> <a href="tel://+48607053162">+48 607 053 162</a></div>
             </div>
             <div className="col-md-4 text-center ">
               <div className="icon">
                 <span className="fa fa-paper-plane"></span>
               </div>
               <p><span>Email:</span> <a href="mailto: blueaxes@blueaxes.pl"> blueaxes@blueaxes.pl</a></p>
+              <p><span>{t('contact.invoices')}:</span> <a href="mailto: faktury@blueaxes.pl"> faktury@blueaxes.pl</a></p>
             </div>
           </div>
         </div>

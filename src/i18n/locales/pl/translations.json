@@ -2,7 +2,7 @@
     "architect": "Architekt",
     "clients": {
         "testimonials": "Referencje",
-        "header": "Zadowoleni klienci",
+        "header": "Zadowoleni Klienci",
         "pannatoni": {
             "name": "PANATTONI EUROPE",
             "reviewer": "Andrzej Przesymycki",
@@ -58,7 +58,7 @@
     "navigation": {
         "aboutUs": "O Nas",
         "mission": "Misja",
-        "projects": "Nasze projekty",
+        "projects": "Nasze Projekty",
         "clients": "Nasi Klienci",
         "contact": "Kontakt",
         "offer": "Oferta",
@@ -68,8 +68,10 @@
         "phone": "tel.",
         "mobile": "kom.",
         "address": "Adres",
+        "studioAddress": "Adres Pracowni",
         "contact": "Kontakt",
-        "companyInfo": "Dane firmy"
+        "companyInfo": "Dane Firmy",
+        "invoices": "Faktury"
     },
     "projects": {
         "header": "Projekty",
@@ -81,15 +83,15 @@
     },
     "filters": {
         "RECENT": "Ostatnie",
-        "LOGISTICS" : "Parki Logistyczne",
-        "BTS" : "BTS Developerski",
+        "LOGISTICS": "Parki Logistyczne",
+        "BTS": "BTS Developerski",
         "PRIVATE": "Klienci Prywatni"
     },
     "mission": {
         "header": "Misja"
     },
-     "aboutUs": {
+    "aboutUs": {
         "header": "Hasło przyciągające uwagę"
     },
-    "gallery" :"Galeria"
+    "gallery": "Galeria"
 }
