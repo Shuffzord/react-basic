@@ -74,7 +74,7 @@
         "invoices": "Invoices"
     },
     "projects": {
-        "header": "Projects",
+        "header": "Selected Projects",
         "investor": "Investor",
         "location": "Location",
         "warehouseSpace": "Warehouse Surface Area",
@@ -82,6 +82,7 @@
         "officeSpace": "Office Space"
     },
     "filters": {
+        "ALL": "ALL",
         "RECENT": "Recent",
         "LOGISTICS": "Logistic Parks",
         "BTS": "Build to suit",

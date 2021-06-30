@@ -14,7 +14,7 @@ const Filters = (props) => {
                         checked={all}
                         onChange={onClickAll}
                     />
-                    <label htmlFor="all">ALL</label>
+                    <label htmlFor={t(`filters.ALL`)}>{t(`filters.ALL`)}</label>
                 </li>
                 {filters.map(
                     (filter, i) =>

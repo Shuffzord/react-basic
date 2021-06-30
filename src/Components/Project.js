@@ -15,10 +15,10 @@ const Project = (props) => {
     const settings = {
         dots: true,
         infinite: true,
-        autoplay: false,
+        autoplay: true,
         speed: 1000,
         autoplaySpeed: 2000,
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
         responsive: [
             {
@@ -91,7 +91,7 @@ const Project = (props) => {
                                 return (
                                     <div className="testimony-container">
                                         <div className="testimony-wrap py-4">
-                                            <img src={image} style={{ width: '60vh', height: '60vh', borderRadius: 25 }} alt={project.title} />
+                                            <img src={image} style={{ width: '100%',  borderRadius: 25 }} alt={project.title} />
                                         </div>
                                     </div>
                                 )

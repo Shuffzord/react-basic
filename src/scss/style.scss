@@ -401,23 +401,7 @@ h5,
     @include gradient-background();
     height: 850px;
   }
-  &.hero-wrap-2 {
-    height: 600px !important;
-    position: relative;
-    .overlay {
-      width: 100%;
-      opacity: 0.1;
-      height: 600px;
-    }
-    .slider-text {
-      height: 600px !important;
-      h1 {
-        &:after {
-          display: none;
-        }
-      }
-    }
-  }
+ 
 }
 .slider-text {
   height: 850px;
@@ -1487,6 +1471,9 @@ textarea.form-control {
 //TESTIMONY
 .testimony-container {
   padding: 1em 0 2em 0;
+  flex: 1;
+  justify-items: center;
+  justify-content: center;
 }
 
 .testimony-wrap {
