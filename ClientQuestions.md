@@ -1,3 +1,9 @@
+# Questions
+
+1. DPD slaba jakosc obrazkow, DPD vertical
+2. 
+
+
 # Notatki:
 
 https://thankful-ocean-016582203.azurestaticapps.net/

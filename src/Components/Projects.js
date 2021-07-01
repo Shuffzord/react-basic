@@ -52,8 +52,10 @@ const Projects = () => {
     let newProjects = [];
     ProjectsData.forEach((project) => {
       filters.forEach(filter => {
-        if (project.tags.includes(filter.name) && (filter.status === true)) {
-          newProjects.push(project);
+        if (project.tags.includes(filter.name) && (filter.status === true) && !newProjects.includes(x => x.id === project.id)) {
+          if (!newProjects.find(x => x.id === project.id)) {
+            newProjects.push(project);
+          }
         }
       })
     })
