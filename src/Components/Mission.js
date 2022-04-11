@@ -25,7 +25,7 @@ const Mission = () => {
 
                             <div className="row">
                                 <div className="col-lg-4">
-                                    <p><img src={images.handshake} style={{ width: 100, height: 100 }} alt="handshake" /> Naszą misją jest budowanie
+                                    <p> Naszą misją jest budowanie
                                         partnerskich, opartych na zaufaniu
                                         relacji z inwestorem i jego klientami.
                                     </p>
