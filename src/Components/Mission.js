@@ -3,10 +3,7 @@ import { useTranslation } from 'react-i18next'
 
 const Mission = () => {
     const { t } = useTranslation();
-    const images = {
-        handshake: require('../images/mission/handshake.JPG'),
 
-    };
     return (
         <section id="Mission" className="ftco-section ftco-no-pb ftco-no-pt">
             <div className="container">
