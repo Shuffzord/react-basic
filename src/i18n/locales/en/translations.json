@@ -58,9 +58,10 @@
     "navigation": {
         "aboutUs": "About Us",
         "mission": "Mission",
-        "projects": "Our Projects",
-        "clients": "Our Clients",
+        "projects": "Projects",
+        "clients": "Clients",
         "contact": "Contact",
+        "career": "Career",
         "offer": "Offer",
         "team": "Team"
     },
@@ -93,6 +94,9 @@
     },
     "aboutUs": {
         "header": "About Us"
+    },
+    "career": {
+        "main": ""
     },
     "gallery": "Gallery"
 }
