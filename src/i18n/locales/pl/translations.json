@@ -58,9 +58,10 @@
     "navigation": {
         "aboutUs": "O Nas",
         "mission": "Misja",
-        "projects": "Nasze Projekty",
-        "clients": "Nasi Klienci",
+        "projects": "Projekty",
+        "clients": "Klienci",
         "contact": "Kontakt",
+        "career": "Kariera",
         "offer": "Oferta",
         "team": "Zespół"
     },
@@ -92,7 +93,12 @@
         "header": "Misja"
     },
     "aboutUs": {
-        "header": "Hasło przyciągające uwagę"
+        "header": "Przemyślane projektowanie",
+        "details": "Architektura przemysłowa"
+    },
+    "career": {
+        "main": "Jesteśmy zgranym Zespołem, który ciągle się rozwija i podejmuje nowe ciekawe projekty. Dlatego jesteśmy otwarci na nowe osoby z którymi moglibyśmy osiągnąć jeszcze więcej. Nie ma dla nas znaczenia jaki masz wiek, kolor skóry, z jakiego jesteś kraju czy jaką religię wyznajesz. Jeżeli śmigasz w AutoCad, znasz polskie przepisy dotyczące projektowania hal magazynowych i przemysłowych wyślij do nas swoje CV.",
+        "extra": "Co Cię czeka jeśli pomyślnie przejdziesz proces rekrutacji? \n - udział w ciekawych projektach \n - wspierająca, miła atmosfera \n - imprezy integracyjne \n - szkolenia"
     },
     "gallery": "Galeria"
 }

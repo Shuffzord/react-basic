@@ -19,7 +19,7 @@ const AboutUs = () => {
                     <div className="col-md-10 col-lg-7 ftco-animate d-flex align-items-end">
                         <div className="text">
                             <h1 className="mb-4">{t('aboutUs.header')}</h1>
-                            <p>Ładny chwytliwy opis - kilka zdań
+                            <p>{t('aboutUs.details')}
                             </p>
                         </div>
                     </div>

@@ -50,41 +50,20 @@ $enable-transitions: true !default;
 
 .slick-slide img {
   margin: auto;
-  
 }
 @mixin gradient-background() {
   background: rgba(0, 0, 0, 1);
-  background: -moz-linear-gradient(
-    45deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
   background: -webkit-gradient(
     left bottom,
     right top,
     color-stop(0%, rgba(0, 0, 0, 1)),
     color-stop(100%, rgba(255, 255, 255, 1))
   );
-  background: -webkit-linear-gradient(
-    45deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  background: -o-linear-gradient(
-    45deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  background: -ms-linear-gradient(
-    45deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  background: linear-gradient(
-    45deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  background: -o-linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff', GradientType=1 );
 }
 
@@ -401,7 +380,6 @@ h5,
     @include gradient-background();
     height: 850px;
   }
- 
 }
 .slider-text {
   height: 850px;
@@ -966,6 +944,10 @@ textarea.form-control {
   }
 }
 
+#root {
+  white-space: pre-line;
+}
+
 .ftco-animate {
   // opacity: 1;
   // visibility: hidden;
@@ -1245,7 +1227,7 @@ textarea.form-control {
 
 .fullheight {
   height: 80vh;
-  width: '100%';
+  width: "100%";
 }
 
 //COVER BG

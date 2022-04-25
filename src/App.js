@@ -14,6 +14,7 @@ import { Route, Switch } from 'react-router-dom'
 import '../node_modules/slick-carousel/slick/slick.css'
 import '../node_modules/slick-carousel/slick/slick-theme.css'
 import Project from './Components/Project';
+import Career from './Components/Carreer';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
       <Switch>
         <Route exact path="/Project/:id" >
           <Project />
+        </Route>
+        <Route exact path="/Career" >
+          <Career />
         </Route>
         <Route exact path="/" >
           <AboutUs />
