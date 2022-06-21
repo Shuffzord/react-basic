@@ -28,7 +28,7 @@ const Contact = () => {
               <p><span>{t('contact.studioAddress')}:</span></p>
               Bielany Business Center<br />
               Aleja Zjednoczenia 36<br />
-              01-836 Warszawa<br />
+              01-830 Warszawa<br />
               Wejście A, Piętro 3
               <div className="icon">
                 <span className="fa fa-phone"></span>
