@@ -16,9 +16,9 @@ const Contact = () => {
               <p><span>BLUE AXES sp. z o.o.</span></p>
               <div>Aleja Zjednoczenia 36, 01-830 Warszawa</div>
               <div>
-                <span style={{ fontWeight: 'bold' }}>NIP:</span> 118-060-31-42
+                <span style={{ fontWeight: 'bold' }}>NIP:</span> 1182239522
               </div>
-              <div><span style={{ fontWeight: 'bold' }}>REGON:</span> 010492372</div>
+              <div><span style={{ fontWeight: 'bold' }}>REGON:</span> 521637375</div>
               <div><span style={{ fontWeight: 'bold' }}>KRS:</span> 0000960847</div>
             </div>
             <div className="col-md-4 text-center">
