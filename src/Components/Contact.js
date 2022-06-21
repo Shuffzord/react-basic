@@ -13,8 +13,8 @@ const Contact = () => {
           </div>
           <div className="row">
             <div className="col-md-4 text-center border-height">
-              <p><span>BLUE AXES Marek Cywiński Pracownia Projektowa</span></p>
-              <div>ul.Łosia 1, 05-807 Podkowa Leśna</div>
+              <p><span>BLUE AXES sp. z o.o.</span></p>
+              <div>Aleja Zjednoczenia 36, 01-830 Warszawa</div>
               <div>
                 <span style={{ fontWeight: 'bold' }}>NIP:</span> 118-060-31-42
               </div>
@@ -33,7 +33,7 @@ const Contact = () => {
               <div className="icon">
                 <span className="fa fa-phone"></span>
               </div>
-              <div><span>{t('contact.phone')}:</span> <a href="tel://+48228648118">+48 22 121 81 18 </a></div>
+              <div><span>{t('contact.phone')}:</span> <a href="tel://+48228648118">+48 22 121 16 00 </a></div>
             </div>
             <div className="col-md-4 text-center ">
               <div className="icon">
