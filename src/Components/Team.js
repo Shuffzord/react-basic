@@ -89,7 +89,7 @@ const Team = () => {
         </div>
         <div className="row ftco-animate">
           <div className="col-md-12">
-            <div className="carousel-testimony owl-carousel">
+            <div className="">
               <Slider {...settings}>
                 {team.map((member) => {
                   return <TeamMember key={member.name} member={member} />

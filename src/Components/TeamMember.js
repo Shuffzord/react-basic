@@ -5,8 +5,15 @@ const TeamMember = (props) => {
     const { t } = useTranslation();
     return (
         <div className="team-container">
-            <div className="team-wrap py-4">
-                <div className="user-img" style={{ backgroundImage: `url("${props.member.photo}` }}></div>
+            <div className="team-wrap py-4 ">
+                <div style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center"
+
+                }}>
+                    <div className="user-img" style={{ backgroundImage: `url("${props.member.photo}` }}></div>
+                </div>
                 <div className="text">
                     <div className="d-flex align-items-center">
                         <div className="pl-3">

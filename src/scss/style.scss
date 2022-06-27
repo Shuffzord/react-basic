@@ -47,6 +47,9 @@ $enable-transitions: true !default;
     transition: none;
   }
 }
+.slick-dots {
+  bottom: 10px !important;
+}
 
 .slick-slide img {
   margin: auto;
@@ -135,9 +138,7 @@ h5,
       color: $white;
     }
   }
-  .slick-list {
-    padding: 1em 0 2em 0 !important;
-  }
+
   .navbar-nav {
     @include media-breakpoint-down(md) {
       padding-bottom: 10px;
