@@ -3,12 +3,12 @@ import Header from './Components/Header';
 import AboutUs from './Components/AboutUs'
 import './scss/style.scss'
 import './css/animate.css'
-// import Counters from './Components/Counters';
-// import Mission from './Components/Mission';
-// import Projects from './Components/Projects';
-// import Clients from './Components/Clients';
-// import Offer from './Components/Offer';
-// import Team from './Components/Team';
+import Counters from './Components/Counters';
+import Mission from './Components/Mission';
+import Projects from './Components/Projects';
+import Clients from './Components/Clients';
+import Offer from './Components/Offer';
+import Team from './Components/Team';
 import Contact from './Components/Contact';
 import { Route, Switch } from 'react-router-dom'
 import '../node_modules/slick-carousel/slick/slick.css'
@@ -29,12 +29,12 @@ function App() {
         </Route>
         <Route exact path="/" >
           <AboutUs />
-          {/* <Offer />
+          <Offer />
           <Counters />
           <Mission />
           <Projects />
           <Clients />
-          <Team /> */}
+          <Team />
           <Contact />
         </Route>
       </Switch>
