@@ -1,90 +1,137 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next'
-import Slider from "react-slick";
 import TeamMember from './TeamMember';
 //TODO: Add images, move into components
 const Team = () => {
-  const { t } = useTranslation();
-  const photos = {
-    mc: require('../images/person_1.jpg'),
-    mc2: require('../images/person_2.jpg'),
-    mc3: require('../images/team-4.jpg'),
-    mc4: require('../images/person_4.jpg'),
-    mc5: require('../images/team-1.jpg'),
+  const icons = {
+    managemenet: require('../images/Kadra.jpg'),
+    team: require('../images/projektanci.jpg'),
   };
   const team = [
     {
       'name': 'Marek Cywiński',
-      'role': 'architect',
+      'role': 'Prezes Zarządu',
       'contact': 'mcywinski@blueaxes.pl',
-      'photo': photos.mc,
+      'photo': icons.managemenet,
+      'filter': 'management'
+    },
+    {
+      'name': 'Beata Cywińska',
+      'role': 'Członek Zarządu',
+      'contact': 'bcywinska@blueaxes.pl',
+      'photo': icons.managemenet,
+      'filter': 'management'
     },
     {
       'name': 'Tomasz Grochowski',
-      'role': 'architect',
+      'role': 'Członek Zarządu',
       'contact': 'tgrochowski@blueaxes.pl',
-      'photo': photos.mc2,
-    },
-    {
-      'name': 'Agnieszka Nowik',
-      'role': 'architect',
-      'contact': 'anowik@blueaxes.p',
-      'photo': photos.mc3,
-    },
-    {
-      'name': 'Marcin Nowak',
-      'role': 'architect',
-      'contact': 'mnowak@blueaxes.pl',
-      'photo': photos.mc4,
+      'photo': icons.managemenet,
+      'filter': 'management'
     },
     {
       'name': 'Piotr Karlicki',
       'role': 'architect',
       'contact': 'pkarlicki@blueaxes.pl',
-      'photo': photos.mc5,
+      'photo': icons.team,
+    },
+    {
+      'name': 'Marcin Nowak',
+      'role': 'architect',
+      'contact': 'mnowak@blueaxes.pl',
+      'photo': icons.team,
+    },
+    {
+      'name': 'Agnieszka Nowik',
+      'role': 'architect',
+      'contact': 'anowik@blueaxes.pl',
+      'photo': icons.team,
+    },
+    {
+      'name': 'Marta Małachowska',
+      'role': 'coordinator',
+      'contact': 'mmalachowska@blueaxes.pl',
+      'photo': icons.team,
+    },
+    {
+      'name': 'Mateusz Stępowski',
+      'role': 'architect',
+      'contact': 'mstepkowski@blueaxes.pl',
+      'photo': icons.team,
+    },
+    {
+      'name': 'Andrzej Olejniczak',
+      'role': 'architect',
+      'contact': 'aolejniczak@blueaxes.pl',
+      'photo': icons.team,
+    },
+    {
+      'name': 'Alicja Kozioł',
+      'role': 'architect',
+      'contact': 'akoziol@blueaxes.pl',
+      'photo': icons.team,
+    },
+    {
+      'name': 'Ada Orczyk',
+      'role': 'architect',
+      'contact': 'aorczyk@blueaxes.pl',
+      'photo': icons.team,
+    },
+    {
+      'name': '',
+      'role': 'mystery',
+      'contact': '',
+      'photo': icons.team,
     },
   ]
-  const settings = {
-    dots: true,
-    infinite: true,
-    autoplay: false,
-    speed: 1000,
-    slidesToShow: 3,
-    slidesToScroll: 2,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  };
+
   return (
-    <section id="Team" className="testimony-section bg-light">
-      <div className="container">
+    <section id="Team" className="testimony-section">
+      <div className="contact-section pt-5">
+        <div className="row d-flex contact-info justify-content-center">
+          <div className="">
+            <div className="row">
+              <div className="text-center mt-4">
+                <h2>Kadra Kierownicza</h2>
+              </div>
+            </div>
+            <div className="row">
+              {team.filter(x => x.filter === "management").map((member) => {
+                return (
+                  <div className="col-md-4 text-center">
+                    <TeamMember key={member.name} member={member} />
+                  </div>
+                )
+              })}
+              <div className="text-center mt-4">
+                <h2>Zespół</h2>
+              </div>
+              {team.filter(x => x.filter !== "management")
+                .map((member, index) => {
+                  if (index + 1 % 3 === 0) {
+                    return (
+                      <div className="row">
+                        <div className="col-md-4 text-center">
+                          <TeamMember key={member.name} member={member} />
+                        </div>
+                      </div>
+                    )
+                  }
+                  return (
+                    <div className="col-md-4 text-center">
+                      <TeamMember key={member.name} member={member} />
+                    </div>
+                  )
+                })}
+            </div>
+
+          </div >
+        </div >
+      </div >
+      {/* <div className="container">
         <div className="row justify-content-center mb-5">
           <div className="col-md-7 text-center heading-section ">
             <span className="subheading">{t('team.header')}</span>
-            {/* <h2 className="mb-3">{t('team.header')}</h2> */}
           </div>
         </div>
         <div className="row ftco-animate">
@@ -98,7 +145,7 @@ const Team = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

@@ -1,5 +1,6 @@
 {
     "architect": "Architect",
+    "coordinator": "Project Coordinator",
     "clients": {
         "testimonials": "Testimonials",
         "header": "Happy Customers",
