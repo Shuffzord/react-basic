@@ -49,7 +49,7 @@ const Contact = () => {
       <div className="row justify-content-center py-5">
         <iframe title="map" style={{ width: '80%', height: 450, border: 0, marginBottom: 50 }}
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.9663012728333!2d20.948453516094855!3d52.280313761716535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecbcddb85955d%3A0x44641c7ffdd3873c!2sBielany%20Business%20Center%2C%20Aleja%20Zjednoczenia%2036%2C%2001-830%20Warszawa!5e0!3m2!1spl!2spl!4v1650897387290!5m2!1spl!2spl"
-          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          loading="lazy"></iframe>
       </div>
     </div >
   );

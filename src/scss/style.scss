@@ -50,6 +50,21 @@ $enable-transitions: true !default;
 .slick-dots {
   bottom: 10px !important;
 }
+.lato-bold {
+  font-family: "Lato-Bold";
+  font-size: 12px;
+}
+.aboutus-number {
+  color: $primary !important;
+}
+.lato-regular {
+  font-family: "Lato-Regular";
+  font-size: 21px;
+}
+.arial-narrow {
+  font-family: "Arial-narrow";
+  font-size: 16px !important;
+}
 
 .slick-slide img {
   margin: auto;

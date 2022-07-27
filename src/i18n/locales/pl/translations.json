@@ -93,12 +93,13 @@
         "header": "Misja"
     },
     "aboutUs": {
-        "header": "Przemyślane projektowanie",
-        "details": "Architektura przemysłowa"
+        "header": "Nasza architektura rodzi się z kresek, liniii i osi, zaś kolor niebieski wypełnia ją muzyką"
     },
     "career": {
-        "main": "Jesteśmy zgranym Zespołem, który ciągle się rozwija i podejmuje nowe ciekawe projekty. Dlatego jesteśmy otwarci na nowe osoby z którymi moglibyśmy osiągnąć jeszcze więcej. Nie ma dla nas znaczenia jaki masz wiek, kolor skóry, z jakiego jesteś kraju czy jaką religię wyznajesz. Jeżeli śmigasz w AutoCad, znasz polskie przepisy dotyczące projektowania hal magazynowych i przemysłowych wyślij do nas swoje CV.",
-        "extra": "Co Cię czeka jeśli pomyślnie przejdziesz proces rekrutacji? \n - udział w ciekawych projektach \n - wspierająca, miła atmosfera \n - imprezy integracyjne \n - szkolenia"
+        "header": "Kariera",
+        "main": "Poszukujemy osób z doświadczeniem w projektowaniu architektury przemysłowej oraz prowadzeniu procedur i decyzji wstępnych. \n Wymagana duża dokładność oraz dobra samoorganizacja pracy w zespole. \n Mile widziane doświadczenie przy projektach wykonawczych i nadzorach autorskich oraz komunikatywny j. angielski. \n\n Jeśli brak Ci doświadczenia ale wierzysz we własne siły - prześlij swoją aplikację. \n",
+        "extra": "Oferujemy: \n - atrakcyjne wynagrodzenie \n - rozwój zawodowy przy dużych projektach dla krajowych i zagranicznych klientów \n - wspierająca, miłą atmosferę w biurze \n - imprezy integracyjne \n - szkolenia",
+        "applications": "Aplikacje prosimy przesłać na adres:"
     },
     "gallery": "Galeria"
 }

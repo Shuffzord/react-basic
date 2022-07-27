@@ -20,14 +20,15 @@ const Header = () => {
           <span className="oi oi-menu"></span> Menu</button>
         <div className="collapse navbar-collapse" id="ftco-nav">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#About">{t('navigation.aboutUs')}</NavHashLink></li>
-            <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Offer">{t('navigation.offer')}</NavHashLink></li>
-            <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Mission">{t('navigation.mission')}</NavHashLink></li>
-            <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Projects">{t('navigation.projects')}</NavHashLink></li>
-            <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Clients">{t('navigation.clients')}</NavHashLink></li>
-            <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Team">{t('navigation.team')}</NavHashLink></li>
-            <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/#Contact">{t('navigation.contact')}</NavHashLink></li>
-            <li className="nav-item"><NavHashLink className="nav-link" activeClassName="active" to="/Career">{t('navigation.career')}</NavHashLink></li>
+            <li className="nav-item"><NavHashLink className="nav-link lato-bold" smooth activeClassName="active" to="/" onClick={() => window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })}>Start</NavHashLink></li>
+            <li className="nav-item"><NavHashLink className="nav-link lato-bold" smooth activeClassName="active" to="/#About">{t('navigation.aboutUs')}</NavHashLink></li>
+            <li className="nav-item"><NavHashLink className="nav-link lato-bold" smooth activeClassName="active" to="/#Offer">{t('navigation.offer')}</NavHashLink></li>
+            <li className="nav-item"><NavHashLink className="nav-link lato-bold" smooth activeClassName="active" to="/#Mission">{t('navigation.mission')}</NavHashLink></li>
+            <li className="nav-item"><NavHashLink className="nav-link lato-bold" smooth activeClassName="active" to="/#Projects">{t('navigation.projects')}</NavHashLink></li>
+            <li className="nav-item"><NavHashLink className="nav-link lato-bold" smooth activeClassName="active" to="/#Clients">{t('navigation.clients')}</NavHashLink></li>
+            <li className="nav-item"><NavHashLink className="nav-link lato-bold" smooth activeClassName="active" to="/#Team">{t('navigation.team')}</NavHashLink></li>
+            <li className="nav-item"><NavHashLink className="nav-link lato-bold" smooth activeClassName="active" to="/#Contact">{t('navigation.contact')}</NavHashLink></li>
+            <li className="nav-item"><NavHashLink className="nav-link lato-bold" smooth activeClassName="active" to="/Career">{t('navigation.career')}</NavHashLink></li>
           </ul>
           <img src={PolandLogo} style={{ width: '25px', marginLeft: '5px', cursor: 'pointer' }} alt="Polski" onClick={() => changeLanguage('pl')} />
           <img src={USALogo} style={{ width: '25px', marginLeft: '5px', cursor: 'pointer' }} alt="English" onClick={() => changeLanguage('en')} />
