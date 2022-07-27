@@ -1,5 +1,4 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next'
 import TeamMember from './TeamMember';
 //TODO: Add images, move into components
 const Team = () => {
