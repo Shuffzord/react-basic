@@ -1418,14 +1418,10 @@ textarea.form-control {
 
 //TEAM
 .team-container {
-  padding: 1em 0 4em 0;
-  margin-left: 5px;
-  margin-right: 5px;
+  // padding: 1em 0 4em 0;
 }
 
 .team-wrap {
-  display: block;
-  position: relative;
   background: rgba(255, 255, 255, 1);
   padding: 0;
   .user-img {
@@ -1443,14 +1439,17 @@ textarea.form-control {
   .name {
     font-weight: 550;
     font-size: 20px;
+    margin-left: 10px;
     text-decoration: underline;
     color: $black;
   }
   .position {
     font-size: 16px;
     color: $black;
+    margin-left: 10px;
   }
   .email {
+    margin-left: 10px;
     color: $primary !important;
   }
 }

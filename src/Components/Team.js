@@ -1,6 +1,5 @@
 import React from 'react';
 import TeamMember from './TeamMember';
-//TODO: Add images, move into components
 const Team = () => {
   const icons = {
     managemenet: require('../images/Kadra.jpg'),
@@ -97,32 +96,36 @@ const Team = () => {
             <div className="row">
               {team.filter(x => x.filter === "management").map((member) => {
                 return (
-                  <div className="col-md-4 text-center">
+                  <div className="col-md-4">
                     <TeamMember key={member.name} member={member} />
                   </div>
                 )
               })}
+            </div>
+            <div className="row">
               <div className="text-center mt-4">
                 <h2>Zespół</h2>
               </div>
-              {team.filter(x => x.filter !== "management")
-                .map((member, index) => {
-                  if (index + 1 % 3 === 0) {
-                    return (
-                      <div className="row">
-                        <div className="col-md-4 text-center">
-                          <TeamMember key={member.name} member={member} />
-                        </div>
-                      </div>
-                    )
-                  }
+            </div>
+            {grouped()}
+
+            {/* {team.filter(x => x.filter !== "management")
+              .map((member, index) => {
+                if (index % 3 === 0) {
                   return (
-                    <div className="col-md-4 text-center">
-                      <TeamMember key={member.name} member={member} />
+                    <div className="row">
+                      <div className="col-md-4">
+                        <TeamMember key={member.name} member={member} />
+                      </div>
                     </div>
                   )
-                })}
-            </div>
+                }
+                return (
+                  <div className="col-md-4">
+                    <TeamMember key={member.name} member={member} />
+                  </div>
+                )
+              })} */}
 
           </div >
         </div >
@@ -145,8 +148,29 @@ const Team = () => {
           </div>
         </div>
       </div> */}
-    </section>
+    </section >
   );
+
+  function grouped(groupSize = 3, array) {
+    var rows = team.filter(x => x.filter !== "management").map(function (member) {
+      // map content to html elements
+      return (
+        <div className="col-md-4">
+          <TeamMember key={member.name} member={member} />
+        </div>
+      );
+    }).reduce(function (r, element, index) {
+      // create element groups with size 3, result looks like:
+      // [[elem1, elem2, elem3], [elem4, elem5, elem6], ...]
+      index % groupSize === 0 && r.push([]);
+      r[r.length - 1].push(element);
+      return r;
+    }, []).map(function (rowContent) {
+      // surround every group with 'row'
+      return <div className="row">{rowContent}</div>;
+    });
+    return <div>{rows}</div>;
+  }
 }
 
 export default Team;

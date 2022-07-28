@@ -6,14 +6,14 @@ const TeamMember = (props) => {
     const mystery = require('../images/HEAD.png')
     return (
         <div className="team-container">
-            <div className="team-wrap py-4 ">
+            <div className="team-wrap py-3">
                 <div style={{
                     display: "flex",
                     alignItems: "flex-start",
                     justifyContent: "center"
 
                 }}>
-                    <div className="d-flex align-items-start">
+                    <div className="d-flex align-items-start" style={{ width: '243px' }}>
                         <div className="row">
                             <div className="col-sm-2">
                                 <div className="user-img" style={{ backgroundImage: `url("${props.member.photo}` }}></div>
